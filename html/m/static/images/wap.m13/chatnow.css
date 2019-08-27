@@ -1,0 +1,40 @@
+.layim-chat-send button {
+	width: 40px;
+}
+.LayImAhrefNode {
+	padding: 10px 25px;
+	background-color: #f08000;
+	color: #fff;
+	border-radius: 5px;
+	margin: 10px auto;
+	display: table !important;
+	line-height: 100%;
+}
+.details-section .new-products .tool-box {
+	margin-bottom: 2rem
+}
+.indexchat {
+}
+.indexchat a {
+	display: block;
+	color: #fff;
+}
+.indexchat a.LayImAhrefNode{
+	width: 40px;
+	padding: 45px 0 5px;
+	border-radius: 3px;
+	background-color: #f08000;
+	background-image: url("chatnow.png")/*tpa=http://m.maxsunindustry.com/images/wap.m13/chatnow.png*/;
+	background-position: center 10px;
+	background-repeat: no-repeat;
+	position: fixed;
+	right: 0;
+	bottom: 120px;
+	color: #fff;
+	line-height: 20px;
+	text-align: center;
+	z-index: 99999;
+}
+#topcontrol{
+	z-index: 99999;
+}

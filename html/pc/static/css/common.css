@@ -1,0 +1,72 @@
+			.right3_text .LayImAhrefNode {
+				visibility: hidden;
+				height: 0;
+				padding: 0;
+				margin: 0;
+			}
+			
+			.side-contact p {
+				font-size: 14px;
+				line-height: 2;
+				font-weight: bold;
+				white-space: nowrap;
+			}
+			
+			a,
+			a:hover {
+				color: #9b9b9b;
+			}
+			.text_center {
+				text-indent: initial;
+				font-size: 16px;
+				color: #000;
+			}
+			
+			.textbox {
+				height: auto;
+			}
+			
+			.logo {
+				padding-left: 0;
+			}
+			
+			body {
+				background-image: url("http://www.maxsunindustry.com/uploads/201715736/navbj.jpg");
+			}
+			
+			.pdown2 #A_DownLoadProduct span,
+			.pdown3 #A_DownLoadProduct span,
+			.pdown4 #A_DownLoadProduct span {
+				color: #31929c;
+			}
+			
+			.tcon {
+				position: absolute;
+				top: 10px;
+				background: url("../../static/images/C_IMG/Common/mail0.png") no-repeat 0 2px;
+				padding-left: 24px;
+				color: #fff;
+				font-size: 14px;
+				font-weight: bold;
+			}
+			
+			.tcon a {
+				color: #fff;
+				font-size: 14px;
+				font-weight: bold;
+			}
+			
+			.tcon .ttel {
+				background: url("../../static/images/C_IMG/Common/tel0.png") no-repeat 14px 0;
+				padding-left: 30px;
+			}
+			
+			.sf-menu li a,
+			.sf-menu li:hover a {
+				font-size: 14px;
+			}
+			
+			.nav_top li a {
+				font-weight: bold;
+				padding: 0px 10px;
+			}

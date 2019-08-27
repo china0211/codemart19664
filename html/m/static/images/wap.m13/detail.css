@@ -1,0 +1,280 @@
+
+.details-section {
+  width: 16rem;
+  background: #f8f8f8;
+  overflow: hidden;
+}
+.details-section .box {
+  background: #FFF;
+  margin: 1.06666667rem auto 0;
+  padding-bottom: 1.06666667rem;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+}
+.details-section .box .re-title {
+  width: 16rem;
+  padding-left: 0.64rem;
+}
+.details-section .box .re-title .line {
+  width: 1.024rem;
+  border-bottom: 0.08533333rem solid #1c98e7;
+  margin: 1.06666667rem 0 0.42666667rem 0;
+}
+.details-section .box .re-title h3,.details-section .box .re-title h1 {
+  color: #1c98e7;
+  font-size: 0.896rem;
+  text-transform: uppercase;
+}
+.details-section .box2 {
+  background: #FFF;
+  margin: 0 auto;
+  padding-bottom: 1.06666667rem;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+}
+.details-section .box2 .re-title {
+  width: 16rem;
+  padding-left: 0.64rem;
+}
+.details-section .box2 .re-title .line {
+  width: 1.024rem;
+  border-bottom: 0.08533333rem solid #1c98e7;
+  margin:0.42666667rem 0 0.42666667rem 0;
+}
+.details-section .box2 .re-title h3,.details-section .box2 .re-title h1 {
+  color: #1c98e7;
+  font-size: 0.896rem;
+  text-transform: uppercase;
+}
+.details-section .new-products {
+  width: 16rem;
+  position: relative;
+}
+.details-section .new-products h4 {
+  color: #999;
+  font-size: 0.64rem;
+  line-height: 0.66133333rem;
+  text-transform: uppercase;
+  padding: 0.42666667rem 0 0.64rem 0;
+}
+.details-section .new-products .more {
+  position: absolute;
+  display: block;
+  width: 1.00266667rem;
+  height: 0.98133333rem;
+  top: 1.152rem;
+  right: 0.64rem;
+}
+.details-section .new-products .slider .details-bigpic {
+  width: 14.656rem;
+  margin: 0 auto;
+}
+.details-section .new-products .slider .details-list {
+  width: 13.97333333rem;
+  margin: 0.61866667rem auto 0;
+  position: relative;
+  z-index: 1;
+}
+.details-section .new-products .slider .owl-wrapper-outer {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.details-section .new-products .slider .owl-wrapper {
+  -webkit-transform: translate3d(0, 0, 0);
+}
+.details-section .new-products .slider .owl-item {
+  float: left;
+  width: 4.20266667rem;
+}
+.details-section .new-products .slider .item {
+  width: 4.20266667rem;
+  margin: 0 0.17066667rem;
+}
+.details-section .new-products .slider .item img {
+  border: 1px solid #d3d3d3;
+  width: 4.20266667rem;
+  height: auto;
+}
+.details-section .new-products .slider .owl-pagination {
+  display: none;
+}
+.details-section .new-products .slider .owl-prev {
+  position: absolute;
+  z-index: 2;
+  background: url("detail-arrow1.png")/*tpa=http://m.maxsunindustry.com/images/wap.m13/detail-arrow1.png*/ no-repeat;
+  width: 0.34133333rem;
+  height: 0.68266667rem;
+  background-size: 100% 100%;
+  left: -0.55466667rem;
+  top: 50%;
+  margin-top: -0.34133333rem;
+}
+.details-section .new-products .slider .owl-next {
+  position: absolute;
+  z-index: 2;
+  background: url("detail-arrow2.png")/*tpa=http://m.maxsunindustry.com/images/wap.m13/detail-arrow2.png*/ no-repeat;
+  width: 0.34133333rem;
+  height: 0.68266667rem;
+  background-size: 100% 100%;
+  right: -0.55466667rem;
+  top: 50%;
+  margin-top: -0.34133333rem;
+}
+.details-section .new-products .np-details {
+  width: 14.72rem;
+  line-height: 0.74666667rem;
+  margin: 0 auto;
+  color: #000;
+  font-size: 0.512rem;
+  padding: 0.59733333rem 0 0.85333333rem 0;
+}
+.details-section .new-products button {
+  margin-left: 4.24533333rem;
+  width: 7.25333333rem;
+  height: 1.28rem;
+  background: #a88b7b;
+  color: #FFF;
+  font-size: 0.64rem;
+  text-transform: uppercase;
+}
+.details-section .new-products .tool-box {
+  width: 16rem;
+  height: 0.704rem;
+  margin-bottom: 1.024rem;
+}
+.details-section .new-products .tool-box .share-tools {
+  float: right;
+  margin: 0.64rem 0.64rem 0 0;
+}
+.details-section .new-products .tool-box .share-tools a {
+  height: 0.704rem;
+  float: left;
+  margin-left: 0.21333333rem;
+}
+.details-section .new-products .tool-box .share-tools .img-29 {
+  width: 0.61866667rem;
+  height: 0.704rem;
+}
+.details-section .new-products .tool-box .share-tools .img-16 {
+  width: 0.34133333rem;
+  height: 0.704rem;
+}
+.details-section .new-products .tool-box .share-tools .img-43 {
+  width: 0.91733333rem;
+  height: 0.704rem;
+}
+.details-section .new-products .tool-box .share-tools .img-28 {
+  width: 0.59733333rem;
+  height: 0.704rem;
+}
+.details-section .new-products .tool-box .share-tools .img-21 {
+  width: 0.448rem;
+  height: 0.704rem;
+}
+.details-section .product-details article {
+  margin: 0 auto;
+  padding-top: 0.59733333rem;
+  width: 14.72rem;
+  line-height: 0.74666667rem;
+  color: #999;
+  font-size: 0.55466667rem;
+}
+.details-section .product-details article div{max-width:100% !important;height:auto !important;}
+.details-section .product-details article img { max-width:100% !important;height:auto !important;min-width:30px;}
+
+.details-section .hot-tags {
+  padding-bottom: 0.64rem;
+}
+.details-section .hot-tags .ht-details {
+  font-size: 0.512rem;
+  line-height: 0.93866667rem;
+  padding-left: 0.64rem;
+  margin-top: 0.61866667rem;
+}
+.details-section .hot-tags .ht-details a {
+  display: block;
+  color: #8e8d89;
+  height: 0.93866667rem;
+  padding: 0 0.29866667rem;
+  border: 1px solid #8e8d89;
+  float: left;
+  margin: 0 0.42666667rem 0.42666667rem 0;
+}
+.details-section .flip {
+  color: #868686;
+  font-size: 0.59733333rem;
+  line-height: 0.64rem;
+  padding-left: 0.64rem;
+  margin-top: 1.024rem;
+  text-transform: uppercase;
+}
+.details-section .flip em {
+  display: block;
+  margin-bottom: 0.576rem;
+}
+.details-section .flip em a {
+  font-weight: normal;
+  color: #868686;
+  text-decoration: underline;
+  margin-left: 0.17066667rem;
+}
+.details-section .flip em u {
+  text-decoration: underline;
+}
+.details-section .form-title {
+  width: 16rem;
+  padding-left: 0.64rem;
+}
+.details-section .form-title .line {
+  width: 1.024rem;
+  border-bottom: 0.08533333rem solid #1c98e7;
+  margin: 1.06666667rem 0 0.42666667rem 0;
+}
+.details-section .form-title h3 {
+  color: #1c98e7;
+  font-size: 0.896rem;
+  text-transform: uppercase;
+}
+.details-section form {
+  width: 16rem;
+  padding: 0.59733333rem 0 0 0.64rem;
+  margin-bottom: 1.28rem;
+}
+
+
+span.stxt{ display:none;}
+.button2{    width: 13.72rem;
+    display: block;
+    margin: 0.64rem 0 0 0;
+    background: #a88b7b;
+    color: #FFF;
+    font-size: 0.64rem;
+    height: 1.68533333rem;
+    line-height: 0.64rem;
+    border: 1px solid #d3d3d3;
+    text-transform: uppercase; }
+.bPosition{
+  width: 14.72rem;
+  line-height: 0.74666667rem;
+  margin: 0 auto;
+  color: #000;
+  font-size: 0.512rem;
+  padding-top: 0.39733333rem;}
+.fbbtn,.area1,.area2{margin:12px 12px;}
+.area1,.area2{padding:10px 6px;border:1px solid #d9d9d9;width:13.20rem;background:#FFF;}
+input,textarea{color:#000;font-size:14px;width:100%;background-color:#FFF; border:0px;color:#999;outline:none}.textarea2{height:64px;}
+.singglepic,.singglepic img{width:100%;}
+.at-icon,.at-icon-wrapper{width:20px!important;height:20px!important;}
+.stxt{display:none;}
+
+.pdown1, .pdown2, .pdown3 {padding:0 12px; text-align: center;}
+.pdown1 #A_DownLoadProduct {display:inline-block;clear:both;height:32px;margin:16px 0 0 0;line-height:32px;background:url("../down1_2.png")/*tpa=http://m.maxsunindustry.com/images/down1_2.png*/ right top no-repeat;padding-right:50px;}
+.pdown1 #A_DownLoadProduct span {display:inline-block;height:32px;background:url("../down1_1.png")/*tpa=http://m.maxsunindustry.com/images/down1_1.png*/no-repeat;padding:0 0 0 16px;}
+.pdown2 #A_DownLoadProduct, .pdown3 #A_DownLoadProduct, .pdown4 #A_DownLoadProduct {display:inline-block;clear:both;height:45px;margin:16px 0 0 0;line-height:45px;padding-right:45px;}
+.pdown2 #A_DownLoadProduct span, .pdown3 #A_DownLoadProduct span, .pdown4 #A_DownLoadProduct span {display:inline-block;height:45px;background:url("../down2_1.png")/*tpa=http://m.maxsunindustry.com/images/down2_1.png*/no-repeat;padding:0 0 0 8px;}
+.pdown2 #A_DownLoadProduct {background:url("../down2_2.png")/*tpa=http://m.maxsunindustry.com/images/down2_2.png*/ right top no-repeat;}
+.pdown3 #A_DownLoadProduct {background:url("../down2_3.png")/*tpa=http://m.maxsunindustry.com/images/down2_3.png*/ right top no-repeat;}
+.pdown4 #A_DownLoadProduct {background:url("../down2_4.png")/*tpa=http://m.maxsunindustry.com/images/down2_4.png*/ right top no-repeat;}
+
+.product-details.box .table {max-width:100%;overflow-x:scroll;display:block;}

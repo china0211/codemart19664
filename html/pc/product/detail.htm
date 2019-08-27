@@ -1,0 +1,466 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset=utf-8 "utf-8" />
+		<title>产品</title>
+		<meta name="description" content="描述" />
+		<meta name="keywords" content="关键字" />
+
+		<link href="手机站对应页面路径" rel="alternate" media="only screen and (max-width: 640px)" />
+		<link href="主站网址" rel="canonical" />
+		<link href="../favicon.ico" rel="shortcut icon" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="../static/css/m108/green/style.css" />
+		<link rel="stylesheet" type="text/css" href="../static/css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../static/css/m108/chat_now.css" />
+		<link rel="stylesheet" type="text/css" href="../static/css/feedback.css" />
+		<link href="../static/css/spic.css" rel="stylesheet" type="text/css" />
+
+		<script type="text/javascript" src="../static/js/jquery.js"></script>
+		<script type="text/javascript" src="../static/js/Site_Common.js"></script>
+		<script type="text/javascript" src="../static/js/m108/jquery.SuperSlide.js"></script>
+
+	</head>
+
+	<body>
+		<!--
+        	作者：gheb_96@163.com
+        	时间：2019-08-22
+        	描述：顶部容器
+        -->
+		<div class="box">
+			<!--
+        	作者：gheb_96@163.com
+        	时间：2019-08-22
+        	描述：顶部横行
+        -->
+			<div class="tcon">
+				<a href="mailto:sales@maxsunindustries.com">sales@maxsunindustries.com</a>
+				<span class="ttel">909-465-1900</span>
+			</div>
+			<!--
+            	作者：gheb_96@163.com
+            	时间：2019-08-22
+            	描述：导航菜单
+            -->
+			<div class="nav_top">
+				<ul class="nav_en site_297958">
+					<li id="liHome">
+						<a href="../index.htm" class="inmenu_1">首页</a>
+					</li>
+					<li id="liabout-us">
+						<a href="../single/single.htm" class="inmenu">关于我们</a>
+					</li>
+					<li id="liproducts" onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)">
+						<a href="../product/category.htm" class="inmenu">产品</a>
+						<ul class="submenu">
+							<li class="side_nav1" id="HeadProCat1">
+								<a href="../product/list.htm">Max系列</a>
+							</li>
+							<li class="side_nav1" id="HeadProCat2">
+								<a href="../product/list.htm">太阳系列</a>
+							</li>
+							<li class="side_nav1" id="HeadProCat3">
+								<a href="../product/list.htm">特色产品</a>
+							</li>
+						</ul>
+					</li>
+					<li id="liinventory">
+						<a href="../inventory/list.htm" class="inmenu">库存</a>
+					</li>
+					<li id="linewslist-1">
+						<a href="../news/list.htm" class="inmenu">新闻</a>
+					</li>
+					<li id="liInfo" onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)">
+						<a href="../info/index.htm" class="inmenu">知识</a>
+						<ul class="submenu">
+							<li id="HeadIndustryCat1">
+								<a href="../info/list.htm" title="Plant Extract">植物提取物</a>
+							</li>
+							<li id="HeadIndustryCat2">
+								<a href="../info/list.htm" title="Fruit Extract">水果提取物</a>
+							</li>
+							<li id="HeadIndustryCat3">
+								<a href="../info/list.htm" title="Herb Ingredients">草本成分</a>
+							</li>
+							<li id="HeadIndustryCat4">
+								<a href="../info/list.htm" title="Amino Acid">氨基酸</a>
+							</li>
+						</ul>
+					</li>
+					<li id="licontact-us">
+						<a href="../single/single.htm" class="inmenu">联系我们</a>
+					</li>
+				</ul>
+			</div>
+			<!--
+            	作者：gheb_96@163.com
+            	时间：2019-08-22
+            	描述：搜索条件
+            -->
+			<div class="ssk">
+				<div class="ssk_img">
+					<label>
+				        <input type="text" name="lname" id="txtSearch" class="ssss" value="Search" onFocus="if (value =='Search'){value =''}" onBlur="if (value ==''){value='Search'}" />
+				    	<input type="button" value="GO" class="ssk_imga" onClick="PSearch()" id="btnSearch" />
+				    </label>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<!--
+            	作者：gheb_96@163.com
+            	时间：2019-08-22
+            	描述：Logo链接
+            -->
+			<div class="logo fl">
+				<a href="index.htm">
+					<img src="http://www.maxsunindustry.com/uploads/201715736/logo297958.png" alt="Maxsun Industries, Inc" />
+				</a>
+			</div>
+
+			<div class="ttop">
+				<div class="nav fr">
+					<ul>
+
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="list_box">
+			<!--
+            	作者：gheb_96@163.com
+            	时间：2019-08-22
+        		描述：左侧容器
+
+            -->
+			<div class="content_box">
+				<!--
+                	作者：gheb_96@163.com
+                	时间：2019-08-22
+                	描述：文章分类列表
+                -->
+				<ul class="sf-menu">
+					<li class="menu-item LiLevel1" id="LeftNavCat1">
+						<a href="../product/detail.htm" id="6569172">Max Series</a>
+						<ul class="sub-menu">
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6626651">Vitamin</a>
+							</li>
+
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6569440">Muscle</a>
+							</li>
+
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6569443">Nootropic</a>
+							</li>
+
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6569448">Cosmetic Ingredients</a>
+							</li>
+
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6569457">Medical Intermediate</a>
+							</li>
+
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6569460">Natural Sweetener</a>
+							</li>
+
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6569466">Amino Acid</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="menu-item LiLevel1" id="LeftNavCat2">
+						<a href="../product/detail.htm" id="6569173">Sun Series</a>
+						<ul class="sub-menu">
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6569294">Organic Powder</a>
+							</li>
+
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6569360">Fruit Juice Powder</a>
+							</li>
+
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6569419">Fruit Extract</a>
+							</li>
+
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6569421">Herb Ingredients</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="menu-item LiLevel1" id="LeftNavCat3">
+						<a href="../product/detail.htm" id="6576483">Featured Product</a>
+					</li>
+
+				</ul>
+				<div class="side-contact">
+					<p>
+						<a href="mailto:sales@maxsunindustries.com">E-mail:sales@maxsunindustries.com</a>
+					</p>
+					<p>Tel: 909-465-1900 </p>
+					<p>Fax: 909-465-1911</p>
+				</div>
+			</div>
+
+			<div class="list_right_">
+				<!--
+                    	作者：gheb_96@163.com
+                    	时间：2019-08-25
+                    	描述：面包屑
+                    -->
+				<div class="location">
+					<a href="../index.htm">首页</a> >
+					<a href="../product/category.htm">产品分类</a> >
+					<a href="../product/list.htm">产品大类</a> >
+					<a href="../product/list.htm">产品子类</a>
+					产品详情
+				</div>
+				<!--
+                    	作者：gheb_96@163.com
+                    	时间：2019-08-25
+                    	描述：文章详情容器
+                    -->
+				<div class="product_4">
+				     <div class="product_view4">
+				     	<div class="singglepic">
+				     		<img src="http://www.maxsunindustry.com/uploads/201815736/vitamin-d305183372154.jpg" border="0" alt="Vitamin D3"/>
+				     	</div>
+				     	<script type="text/javascript" src="../static/js/spic.js"></script>
+				     </div>
+					
+					<div class="right4_text">
+						<h1>产品标题</h1>
+						<h4>产品描述</h4>
+						<div class="xuxian2"></div>
+						<ul class="pshare clearfix">
+						</ul>
+						
+						<div class="pdown2">
+							<a id="A_DownLoadProduct" href="http://www.maxsunindustry.com/uploads/201815736/Eleutheroside-BE-COA.pdf" title="Download" target="_blank">
+								<span>附件名称</span>
+							</a>
+						</div>
+						<div class="buy">
+							<a href="#F1" id="mysub" rel="nofollow"><img src="../static/css/m108/green/inquiry.png" alt="inquiry" /></a>
+						</div>
+					</div>
+					<div class="container product_details">
+						<div class="content">
+							<div class="ptitle">
+								<h3>Details</h3>
+							</div>
+							<div class="neidiv">
+								<input type="hidden" id="productID" name="productID" value="50293578" />
+								<p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0"><strong><span style="font-family: Arial, sans-serif">Product Details</span></strong></p>
+								<p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0"><span style="font-size: 14px">【</span><span style="font-size: 14px;font-family: Arial, sans-serif">Product Name</span><span style="font-size: 14px">】</span><span style="font-size: 14px;font-family: Arial, sans-serif">Vitamin B1-Thiamnie HCL</span></p>
+								<p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0"><span style="font-size: 14px">【</span><span style="font-size: 14px;font-family: Arial, sans-serif">Molecular Formula</span><span style="font-size: 14px">】</span><span style="font-size: 14px;font-family: Arial, sans-serif">C12H16N4OS</span><span style="font-size: 14px">（·</span><span style="font-size: 14px;font-family: Arial, sans-serif">HCl</span><span style="font-size: 14px">）</span></p>
+								<p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0"><span style="font-size: 14px">【</span><span style="font-size: 14px;font-family: Arial, sans-serif">Molecular Weight</span><span style="font-size: 14px">】</span><span style="font-size: 14px;font-family: Arial, sans-serif">300.81</span></p>
+								<p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0"><span style="font-size: 14px;font-family: 微软雅黑, sans-serif">【</span><span style="font-size: 14px;font-family: Arial, sans-serif">Appearance</span><span style="font-size: 14px;font-family: 微软雅黑, sans-serif">】</span><span style="font-size: 14px;font-family: Arial, sans-serif">White crystalline powder</span></p>
+								<p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0"><span style="font-size: 14px;font-family: Arial, sans-serif">&nbsp;</span></p>
+								<p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;line-height:16px"><strong><span style="font-family: Arial, sans-serif">Description Of Vitamin B1</span></strong></p>
+								<p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0"><span style="font-size: 14px;font-family: Arial, sans-serif">Vitamin b1 is also called thiamine or fight neuritis vitamins or resistance beriberi, white crystal, the presence of oxidants easily by oxidative dehydrogenation thiamine, which appear blue fluorescence under uv irradiation.By the pyrimidine ring and based on the combination of the methyl thiazole ring a B vitamin.</span></p>
+								<p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0"><span style="font-family: Arial, sans-serif; font-size: 14px;"><br/>1.To promote growth, help digestion, especially in carbohydrate digestion.</span><strong><span style="font-size: 14px;font-family: Arial, sans-serif"><br/>&nbsp;</span></strong><strong><span style="font-family: Arial, sans-serif">Function And Application Of Vitamin B1</span></strong></p>
+								<p><span style="font-size: 14px;font-family: Arial, sans-serif">2.To improve mental health, maintain nerve tissue, muscle, normal heart activity.</span></p>
+								<p><span style="font-size: 14px;font-family: Arial, sans-serif">3.Relieve motion sickness, can ease the pain related to dental surgery.</span></p>
+								<p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0"><span style="font-size: 14px;font-family: Arial, sans-serif">4.Contribute to the band Like herpes (herpes zoster) treatment.</span></p>
+								<p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0"><span style="font-size: 14px;font-family: Arial, sans-serif">&nbsp;</span></p>
+								<p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0"><strong><span style="font-family: Arial, sans-serif">Storage&amp;Packaging</span></strong></p>
+								<p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0"><span style="font-size: 14px">【</span><span style="font-size: 14px;font-family: Arial, sans-serif">Storage</span><span style="font-size: 14px">】</span><span style="font-size: 14px;font-family: Arial, sans-serif">Store in tight, light-resistant containers, avoid exposure to direct sunlight, moisture and excessive heat.</span></p>
+								<p style="margin: 5px 0px;"><span style="font-size: 14px">【</span><span style="font-size: 14px;font-family: Arial, sans-serif">Packaging</span><span style="font-size: 14px">】</span><span style="font-size: 14px;font-family: Arial, sans-serif">25kg/Drum.</span></p>
+								<p style="margin: 5px 0px; text-align: center;"><span style="font-size: 14px;font-family: Arial, sans-serif"><img src="http://www.maxsunindustry.com/Content/upload/2018297958/201811121020417530621.jpg"  alt="certificate"/></span></p>
+								<p style="margin: 5px 0px; text-align: center;"><span style="font-size: 14px;font-family: Arial, sans-serif"><img src="http://www.maxsunindustry.com/Content/upload/2018297958/201812210909128744313.jpg"  title="vitamin B1 Thiamnie HCL suppliers" alt="vitamin B1 Thiamnie HCL suppliers" width="658" height="335" style="width: 658px; height: 335px;"/></span></p>
+								
+								<div class="productsTags"> Hot Tags: vitamin b1, manufacturer, suppliers, factory, distributor, wholesale, buy, bulk, for sale</div>
+								<ul class="rollPro1">
+									<li>
+										<div class="pbox">
+											<a href="vitamin-a-acetate.html"><img src="http://www.maxsunindustry.com/uploads/201815736/small/vitamin-a-acetate05207380358.jpg" border="0" alt="Vitamin A Acetate" /></a>
+										</div>
+										<p>
+											<a href="vitamin-a-acetate.html">商品标题</a>
+										</p>
+									</li>
+									<li>
+										<div class="pbox">
+											<a href="../product/detail.htm"><img src="http://www.maxsunindustry.com/uploads/201815736/small/organic-burdock-powder40388294068.jpg" border="0" alt="Organic Burdock Powder" /></a>
+										</div>
+										<p>
+											<a href="../product/detail.htm">商品标题</a>
+										</p>
+									</li>
+									<li>
+										<div class="pbox">
+											<a href="../product/detail.htm"><img src="http://www.maxsunindustry.com/uploads/201715736/small/agmatine-sulfate-powder12126240684.jpg" border="0" alt="Agmatine Sulfate Powder" /></a>
+										</div>
+										<p>
+											<a href="../product/detail.htm">商品标题</a>
+										</p>
+									</li>
+									<li>
+										<div class="pbox">
+											<a href="../product/detail.htm"><img src="http://www.maxsunindustry.com/uploads/201715736/small/acai-berry-extract19445235149.jpg" border="0" alt="Acai Berry Extract" /></a>
+										</div>
+										<p>
+											<a href="../product/detail.htm">商品标题</a>
+										</p>
+									</li>
+									<li>
+										<div class="pbox">
+											<a href="../product/detail.htm"><img src="http://www.maxsunindustry.com/uploads/201715736/small/bilberry-powder22463884088.jpg" border="0" alt="Bilberry Powder" /></a>
+										</div>
+										<p>
+											<a href="../product/detail.htm">商品标题</a>
+										</p>
+									</li>
+									<li>
+										<div class="pbox">
+											<a href="../product/detail.htm"><img src="http://www.maxsunindustry.com/uploads/201715736/small/organic-rice-protein-powder33014711658.jpg" border="0" alt="Organic Rice Protein Powder" /></a>
+										</div>
+										<p>
+											<a href="../product/detail.htm">商品标题</a>
+										</p>
+									</li>
+								</ul>
+							</div>
+							<div class="ptitle">
+								<h3>Feedback</h3></div>
+							<div class="neidiv">
+								<!--
+					        		作者：gheb_96@163.com
+					            	时间：2019-08-22
+					            	描述：表单区域
+					        	-->
+							</div>
+							<div class="feedbackForm" id="F1" name="F1">
+							  <form name="feedbackForm" action="detail.htm" id="feedbackForm" method="get" siq_id="autopick_9060">
+							    <table id="tableInquiry" border="0" align="center" cellspacing="0" cellpadding="0">
+							      <tbody><tr>
+							        <td class="ftxt"><div class="lable"><span class="xh">*</span>Your Name:</div></td>
+							        <td class="fput"><input id="SubmitName" name="SubmitName" class="text" maxlength="30"></td>
+							      </tr>
+							      <tr>
+							        <td><div class="lable"><span class="xh">*</span>E-mail:</div></td>
+							        <td><input id="SubmitEmail" name="SubmitEmail" class="text" maxlength="50" placeholder="Please input your email here, it is very important!"></td>
+							      </tr>
+							      <tr>
+							        <td><div class="lable"><span class="xh">*</span>Phone:</div></td>
+							        <td><input id="SubmitPhone" name="SubmitPhone" class="text" maxlength="40"></td>
+							      </tr>
+							      <tr>
+							        <td><div class="lable"><span class="xh">*</span>Company:</div></td>
+							        <td><input id="SubmitCompanyName" name="SubmitCompanyName" class="text" maxlength="140"></td>
+							      </tr>
+							      <tr>
+							        <td><div class="lable"><span class="xh">*</span>Title:</div></td>
+							        <td><input id="SubmitTitle" name="SubmitTitle" class="text" maxlength="340"></td>
+							      </tr>
+							      <tr>
+							        <td valign="top"><div class="lable"><span class="xh">*</span>Content:</div></td>
+							<td><textarea name="SubmitContent" id="SubmitContent" class="atextarea" cols="50" rows="5" maxlength="2000" placeholder="Please include details like size,weight,destination port and etc.,so that we can quote the best price."></textarea></td>
+							      </tr>
+							      <tr>
+							        <td></td>
+							        <td><div class="fsbtn"><button class="submita" id="ImgSend" onclick="SendInquiry();return false;">Send</button><span id="msg"></span></div></td>
+							      </tr>
+							    </tbody></table>
+							  </form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="clear"></div>
+
+		<!--
+			作者：gheb_96@163.com
+			时间：2019-08-22
+			描述：下面的部分提取为公共部分
+		-->
+
+		<!--
+        	作者：gheb_96@163.com
+        	时间：2019-08-22
+        	描述：底部容器
+        -->
+		<div class="foot">
+			<div class="foot_text">
+				<div class="foot_text_1">
+					<div class="foot_text_1_1">订阅我们的电子邮件列表</div>
+					<div class="foot_text_1_2">注册您的姓名和电子邮件，以获取最新的proway更新，独家访问促销，销售活动，预购销售等等！</div>
+					<div class="foot_text_1_3">
+						<div class="foot_text_1_3_1">
+							<input name="SubmitName_I" id="SubmitName_I" type="text" value="Your Name" onFocus="if (value =='Your Name'){value =''}" onBlur="if (value ==''){value='Your Name'}" />
+						</div>
+						<div class="foot_text_1_3_2">
+							<label>
+					          	<input type="text" name="SubmitEmail_I" id="SubmitEmail_I"  value="Your Email" onFocus="if (value =='Your Email'){value =''}" onBlur="if (value ==''){value='Your Email'}"  />
+					        </label>
+						</div>
+						<input type="image" class="foot_text_1_3_3" src="../static/images/C_IMG/m108/foot_bg.png" onclick="submitInquiry()" id="ImgSend_I" />
+					</div>
+				</div>
+				<div class="foot_text_2">
+					<div class="foot_text_2_1">与maxsun连接</div>
+					<div class="foot_text_2_2">成为我们的粉丝，关注我们并订阅最新的更新和优惠</div>
+					<div class="foot_text_2_3"> </div>
+				</div>
+				<div class="qrcode"><img src="http://www.maxsunindustry.com/uploads/201915736/erwei297958.jpg" border="0" class="ErWeiImg" /><span>QR Code</span></div>
+			</div>
+			<div class="huise_line"></div>
+			<div class="fu_nav">
+				<li id="li_Menu101_about-us">
+					<a href="../single/about-us.htm" class="inmenu">关于我们</a>
+				</li>
+				<li id="li_Menu101_products">
+					<a href="../product/category.htm" class="inmenu">产品</a>
+				</li>
+				<li id="li_Menu101_inventory">
+					<a href="../inventory/list.htm" class="inmenu">库存</a>
+				</li>
+				<li id="li_Menu101_newslist-1">
+					<a href="../news/list.htm" class="inmenu">新闻</a>
+				</li>
+				<li id="li_Menu101_Info">
+					<a href="../info/index.htm" class="inmenu">知识</a>
+				</li>
+				<li id="li_Menu101_contact-us">
+					<a href="../single/contact-us.htm" class="inmenu">联系我们</a>
+				</li>
+			</div>
+		</div>
+		<div class="foot_2">
+			<div class="foot_2_">
+				<div class="font_2_1">版权所有©Maxsun Industries，Inc保留所有权利。</div>
+				<div class="font_2_1_1" style="float:right;">
+					<a href="sitemap.xml.htm">网站地图</a>
+				</div>
+			</div>
+		</div>
+
+		<!--
+        	作者：gheb_96@163.com
+        	时间：2019-08-22
+        	描述：底部JS
+        -->
+		<script type="text/javascript" src="../static/js/focus.js"></script>
+		<script type="text/javascript" src="../static/js/js108.js"></script>
+
+		<!--
+			作者：gheb_96@163.com
+			时间：2019-08-23
+			描述：这里还有弹窗留言组件
+		-->
+
+	</body>
+
+</html>

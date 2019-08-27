@@ -1,0 +1,399 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset=utf-8 "utf-8" />
+		<title>首页</title>
+		<meta name="description" content="描述" />
+		<meta name="keywords" content="关键字" />
+		<meta name="google-site-verification" content="zZQfvSy0bH1tRdc2bGEQayRV5-xW0S_6xkBkPenu4Gs" />
+		
+		<link href="手机站对应页面路径" rel="alternate" media="only screen and (max-width: 640px)" />
+		<link href="主站网址" rel="canonical" />
+		<link href="./favicon.ico" rel="shortcut icon" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="static/css/flag.css" />
+		<link rel="stylesheet" type="text/css" href="static/css/m108/green/style.css" />
+		<link rel="stylesheet" type="text/css" href="static/css/common.css" />
+
+		<script type="text/javascript" src="static/js/jquery.js"></script>
+		<script type="text/javascript" src="static/js/Site_Common.js"></script>
+	</head>
+
+	<body>
+		<!--
+        	作者：gheb_96@163.com
+        	时间：2019-08-22
+        	描述：顶部容器
+        -->
+		<div class="box">
+			<!--
+            	作者：gheb_96@163.com
+            	时间：2019-08-22
+            	描述：顶部横行
+            -->
+			<div class="tcon">
+				<a href="mailto:sales@maxsunindustries.com">sales@maxsunindustries.com</a>
+				<span class="ttel">909-465-1900</span>
+			</div>
+			<!--
+            	作者：gheb_96@163.com
+            	时间：2019-08-22
+            	描述：导航菜单
+            -->
+			<div class="nav_top">
+				<ul class="nav_en site_297958">
+					<li id="liHome">
+						<a href="index.htm" class="inmenu_1">首页</a>
+					</li>
+					<li id="liabout-us">
+						<a href="single/single.htm" class="inmenu">关于我们</a>
+					</li>
+					<li id="liproducts" onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)">
+						<a href="product/category.htm" class="inmenu">产品</a>
+						<ul class="submenu">
+							<li class="side_nav1" id="HeadProCat1">
+								<a href="product/list.htm">Max系列</a>
+							</li>
+							<li class="side_nav1" id="HeadProCat2">
+								<a href="product/list.htm">太阳系列</a>
+							</li>
+							<li class="side_nav1" id="HeadProCat3">
+								<a href="product/list.htm">特色产品</a>
+							</li>
+						</ul>
+					</li>
+					<li id="liinventory">
+						<a href="inventory/list.htm" class="inmenu">PDF文件</a>
+					</li>
+					<li id="linewslist-1">
+						<a href="news/list.htm" class="inmenu">新闻</a>
+					</li>
+					<li id="liInfo" onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)">
+						<a href="info/index.htm" class="inmenu">知识</a>
+						<ul class="submenu">
+							<li id="HeadIndustryCat1">
+								<a href="info/list.htm" title="Plant Extract">植物提取物</a>
+							</li>
+							<li id="HeadIndustryCat2">
+								<a href="info/list.htm" title="Fruit Extract">水果提取物</a>
+							</li>
+							<li id="HeadIndustryCat3">
+								<a href="info/list.htm" title="Herb Ingredients">草本成分</a>
+							</li>
+							<li id="HeadIndustryCat4">
+								<a href="info/list.htm" title="Amino Acid">氨基酸</a>
+							</li>
+						</ul>
+					</li>
+					<li id="licontact-us">
+						<a href="single/single.htm" class="inmenu">联系我们</a>
+					</li>
+				</ul>
+			</div>
+			<!--
+            	作者：gheb_96@163.com
+            	时间：2019-08-22
+            	描述：搜索条件
+            -->
+			<div class="ssk">
+				<div class="ssk_img">
+					<label>
+				        <input type="text" name="lname" id="txtSearch" class="ssss" value="Search" onFocus="if (value =='Search'){value =''}" onBlur="if (value ==''){value='Search'}" />
+				    	<input type="button" value="GO" class="ssk_imga" onClick="PSearch()" id="btnSearch" />
+				    </label>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<!--
+            	作者：gheb_96@163.com
+            	时间：2019-08-22
+            	描述：Logo链接
+            -->
+			<div class="logo fl">
+				<a href="index.htm"><img src="http://www.maxsunindustry.com/uploads/201715736/logo297958.png" alt="Maxsun Industries, Inc" /></a>
+			</div>
+
+			<div class="ttop">
+				<div class="nav fr">
+					<ul>
+
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+		<!--
+			作者：gheb_96@163.com
+			时间：2019-08-22
+			描述：上面部分提取为公共部分
+		-->
+
+		<!--
+        	作者：gheb_96@163.com
+        	时间：2019-08-22
+        	描述：banner广告容器
+        -->
+		<div id="banner" class="clearfix">
+			<ul class="wmuSlider example1">
+				<li class="slider_img">
+					<a href="#">
+						<img src="http://www.maxsunindustry.com/uploads/201915736/ImgScroll/ba201901181045499202673.jpg" alt="" />
+					</a>
+				</li>
+				<li class="slider_img">
+					<a href="#">
+						<img src="http://www.maxsunindustry.com/uploads/201815736/ImgScroll/ba201809301506244924386.jpg" alt="" />
+					</a>
+				</li>
+				<li class="slider_img">
+					<a href="#">
+						<img src="http://www.maxsunindustry.com/uploads/201715736/ImgScroll/ba201711091153174577774.jpg" alt="" />
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<!--
+        	作者：gheb_96@163.com
+        	时间：2019-08-22
+        	描述：关于我们
+        -->
+		<div class="about">
+			<!--
+            	作者：gheb_96@163.com
+            	时间：2019-08-22
+            	描述：左侧文字内容
+            -->
+			<div class="textbox">
+				<div class="text_top">
+					<div class="text_top1"> </div>
+					<div class="text_top2">
+						<a href="about-us.htm">为什么选择我们</a>
+						<p>
+							&nbsp;MAXSUN&nbsp;INDUSTRIES,&nbsp;INC.
+						</p>
+					</div>
+				</div>
+				<div class="text_center">
+					<font style="vertical-align: inherit;">
+						<font style="vertical-align: inherit;">Maxsun Industries Incorporated成立于2002年，是营养原料的主要进口商和分销商。</font>
+						<font style="vertical-align: inherit;">Maxsun致力于不断改进，可靠的测试和可靠的质量保证。</font>
+					</font>
+					<p>
+						<br>
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">Maxsun与9家有机种植者签订合同，为您提供最好的有机原料。</font>
+							<font style="vertical-align: inherit;">2014年，Maxsun的有机生产线获得了美国农业部的有机认证。</font>
+							<font style="vertical-align: inherit;">有机产品有50多种，包括有机草，有机草药和有机藻。</font>
+						</font>
+					</p>
+					<p>
+						<br>
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">
+								质量和客户是Maxsun的首要任务，我们将努力为客户提供高品质的产品。 </font>
+						</font>
+					</p>
+
+				</div>
+				<!--
+                	作者：gheb_96@163.com
+                	时间：2019-08-22
+                	描述：查看更多的跳转链接
+                -->
+				<div class="text_bmt">
+					<a href="single/single.htm"></a>
+				</div>
+			</div>
+			<!--
+            	作者：gheb_96@163.com
+            	时间：2019-08-22
+            	描述：右侧图片链接
+            -->
+			<div class="imgbox">
+				<div class="img_video">
+					<a href="#">
+						<img src="http://www.maxsunindustry.com/Content/upload/2017297958/201711131022463372111.jpg" title="maxsun (2).jpg" alt="maxsun (2).jpg" />
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="lsbox">
+			<!--
+	        	作者：gheb_96@163.com
+	        	时间：2019-08-22
+	        	描述：下面的区域是截图没有样式可以修改
+	        -->
+			<div style="display:block;margin:0 auto;width:1108px;height:408px;margin:0 auto;background-image: url(http://www.maxsunindustry.com/Content/upload/2017297958/201711151538073630714.jpg);background-size:contain;"></div>
+
+			<div class="main ">
+				<div class="mainbox">
+					<div class="main_box2">
+						<div class="main_left">
+							<div class="news_title">
+								<a href="newslist-1.htm">新闻与事件</a>
+							</div>
+							<div class="news_center">
+								<div class="news_img">
+									<a href="news/list.htm">
+										<img src="http://www.maxsunindustry.com/uploads/201815736/n201810101128105743895.jpg" alt="欢迎光临!">
+									</a>
+								</div>
+								<div class="news_center_text">
+									<div class="news_center_text1">
+										<a href="news/list.htm">
+											欢迎光临!
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="news_btm">
+								<div class="news_icon"></div>
+								<a href="news/list.htm" target="_blank">水溶性维生素的功能和来源......</a>
+							</div>
+							<div class="news_btm">
+								<div class="news_icon"></div>
+								<a href="news/list.htm" target="_blank">亚麻籽更健康！</a>
+							</div>
+							<div class="news_btm">
+								<div class="news_icon"></div>
+								<a href="news/list.htm" target="_blank">如何选择高品质的螺旋藻！</a>
+							</div>
+						</div>
+						<div class="main_center">
+							<div class="main2_img">
+								<a href="news/list.htm"><img src="static/images/C_IMG/m108/hd2.jpg" /></a>
+							</div>
+							<div class="main2_title">
+								<a href="news/list.htm">植物提取物的应用</a>
+							</div>
+							<div class="main2_text">
+								目前，我们提供顶级的植物提取物，用于强化大脑，减肥，帮助糖尿病和高血糖，抗癌和帮助提高自然免疫系统。
+							</div>
+						</div>
+						<div class="main_bottom">
+							<div class="main3_img">
+								<a href="#"><img src="http://www.maxsunindustry.com/Content/upload/2017297958/201711241718127614028.jpg" title="" alt="33333.jpg" /></a>
+							</div>
+							<div class="main3_title">
+								<a href="#">Maxsun植物提取物</a>
+							</div>
+							<div class="main3_text">
+								Maxsun Plant Extract Maxsun建立了基于ISO9001标准，Kosher标准的质量管理体系，拥有先进的研发中心，确保产品质量的安全性和稳定性。
+							</div>
+						</div>
+					</div>
+					<div class="main_box3">
+						<img src="http://www.maxsunindustry.com/Content/upload/2017297958/201711291605584735307.jpg" title="" alt="" style="float:none;" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="hezuo1">
+			<div class="hezuo1_1 fl"> 合伙人 </div>
+			<div class="hezuo1_1 fr"> 证明 </div>
+		</div>
+		<div class="hezuo2">
+			<ul class="ml20 fl">
+				<li>
+					<a href="single/single.htm">
+						<img src="http://www.maxsunindustry.com/Content/upload/2017297958/201711241549261752732.jpg" title="" alt="" />
+					</a>
+				</li>
+
+			</ul>
+			<ul class="ml35 fr">
+				<li>
+					<a href="single/single.htm">
+						<img src="http://www.maxsunindustry.com/Content/upload/2017297958/201711241548392475903.jpg" title="" alt="" />
+					</a>
+				</li>
+
+			</ul>
+		</div>
+		<div class="clear"></div>
+
+		<!--
+			作者：gheb_96@163.com
+			时间：2019-08-22
+			描述：下面的部分提取为公共部分
+		-->
+
+		<!--
+        	作者：gheb_96@163.com
+        	时间：2019-08-22
+        	描述：底部容器
+        -->
+		<div class="foot">
+			<div class="foot_text">
+				<div class="foot_text_1">
+					<div class="foot_text_1_1">订阅我们的电子邮件列表</div>
+					<div class="foot_text_1_2">注册您的姓名和电子邮件，以获取最新的proway更新，独家访问促销，销售活动，预购销售等等！</div>
+					<div class="foot_text_1_3">
+						<div class="foot_text_1_3_1">
+							<input name="SubmitName_I" id="SubmitName_I" type="text" value="Your Name" onFocus="if (value =='Your Name'){value =''}" onBlur="if (value ==''){value='Your Name'}" />
+						</div>
+						<div class="foot_text_1_3_2">
+							<label>
+					          	<input type="text" name="SubmitEmail_I" id="SubmitEmail_I"  value="Your Email" onFocus="if (value =='Your Email'){value =''}" onBlur="if (value ==''){value='Your Email'}"  />
+					        </label>
+						</div>
+						<input type="image" class="foot_text_1_3_3" src="static/images/C_IMG/m108/foot_bg.png" onclick="submitInquiry()" id="ImgSend_I" />
+					</div>
+				</div>
+				<div class="foot_text_2">
+					<div class="foot_text_2_1">与maxsun连接</div>
+					<div class="foot_text_2_2">成为我们的粉丝，关注我们并订阅最新的更新和优惠</div>
+					<div class="foot_text_2_3"> </div>
+				</div>
+				<div class="qrcode"><img src="http://www.maxsunindustry.com/uploads/201915736/erwei297958.jpg" border="0" class="ErWeiImg" /><span>QR Code</span></div>
+			</div>
+			<div class="huise_line"></div>
+			<div class="fu_nav">
+				<li id="li_Menu101_about-us">
+					<a href="single/about-us.htm" class="inmenu">关于我们</a>
+				</li>
+				<li id="li_Menu101_products">
+					<a href="product/category.htm" class="inmenu">产品</a>
+				</li>
+				<li id="li_Menu101_inventory">
+					<a href="inventory/list.htm" class="inmenu">库存</a>
+				</li>
+				<li id="li_Menu101_newslist-1">
+					<a href="news/list.htm" class="inmenu">新闻</a>
+				</li>
+				<li id="li_Menu101_Info">
+					<a href="info/index.htm" class="inmenu">知识</a>
+				</li>
+				<li id="li_Menu101_contact-us">
+					<a href="single/contact-us.htm" class="inmenu">联系我们</a>
+				</li>
+			</div>
+		</div>
+		<div class="foot_2">
+			<div class="foot_2_">
+				<div class="font_2_1">版权所有©Maxsun Industries，Inc保留所有权利。</div>
+				<div class="font_2_1_1" style="float:right;">
+					<a href="#">网站地图</a>
+				</div>
+			</div>
+		</div>
+
+		<!--
+        	作者：gheb_96@163.com
+        	时间：2019-08-22
+        	描述：底部JS
+        -->
+		<script type="text/javascript" src="static/js/focus.js"></script>
+		<script type="text/javascript" src="static/js/js108.js"></script>
+
+		<!--
+			作者：gheb_96@163.com
+			时间：2019-08-23
+			描述：这里还有弹窗留言组件
+		-->
+		
+	</body>
+</html>

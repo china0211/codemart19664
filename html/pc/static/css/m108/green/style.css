@@ -1,0 +1,485 @@
+@charset "utf-8";
+*, html, body, table, tr, th, td, h1, h2, h3, h4, h5, h6, ul, li, dl, dt, dd, ol, div, form, img, pre, input, p {margin:0px;padding:0px;font-family:Arial, Helvetica, sans-serif, Microsoft Yahei;-webkit-text-size-adjust:none;}
+html {margin:0px;padding:0px;}
+body {margin:0px auto;padding:0px;background:url("navbj.jpg")/*tpa=http://www.maxsunindustry.com/images/m108/green/navbj.jpg*/ #FFF repeat-x center top;}
+body, table, tr, td, th {font-size:12px;color:#333;line-height:170%;}
+ul, li, dl, dt, dd, ol {margin:0px;padding:0px;list-style:none;}
+h1, h2, h3, h4, h5, h6 {font-size:15px;text-transform:capitalize;}
+a {color:#333;text-decoration:none;}
+a:hover, a:active {color:#209E30;text-decoration:none;}
+.body {overflow-x:hidden;}
+.clear {clear:both;}
+.return1 {display:none;}
+.box {width:1100px;height:113px;margin:0px auto;position:relative;}
+#xyz {position:absolute;right:6px;top:39px;}
+.ssk {float:right;background:url("nav_top_ssk2.png")/*tpa=http://www.maxsunindustry.com/images/m108/green/nav_top_ssk2.png*/ no-repeat;margin-top:5px;width:240px;}
+.ssk_img {width:245px;height:27px;}
+.ssk_imga {display:block;height:27px;width:32px;background:0px;line-height:27px;text-align:center;color:#FFF;text-decoration:none;border:none;cursor:pointer;}
+.ssss {height:18px;width:190px;margin-top:4px;margin-left:8px;border:none;text-decoration:none;float:left;color:#999;}
+.nav_top {height:35px;float:right;}
+.nav_top ul {width:100%;height:35px;}
+.nav_top li {text-decoration:none;float:left;}
+.nav_top li a {float:left;height:35px;padding:0px 12px;text-decoration:none;line-height:35px;color:#FFF;}
+.nav_top li a:hover {text-decoration:underline;}
+.nav_top li {position:relative;z-index:9999999;}
+.nav_top li ul li {float:none;display:block;width:100%;height:28px;text-align:left;border-bottom:solid 1px #EEE;text-transform:capitalize;overflow:hidden;background:none;}
+.nav_top li ul li a {color:#666;display:block;width:100%;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;padding:0px 10px;border-right:0px;font-weight:normal;line-height:28px;background:none;font-size:12px;}
+.nav_top li ul li a:hover {text-decoration:none;background:#42973c;color:#FFF;}
+.nav_top li ul {display:none;width:auto;height:auto;position:absolute;top:35px;left:0;background:#FFF;border:1px solid #4db64f;border-top:0px;}
+.nav {width:800px;height:40px;margin-top:34px;}
+.nav ul {width:auto;height:40px;float:right;}
+.nav ul li {float:left;width:auto;height:40px;padding-left:20px;padding-right:20px;text-align:center;line-height:40px;font:14px;background:url("navbj2.jpg")/*tpa=http://www.maxsunindustry.com/images/m108/green/navbj2.jpg*/;border-radius:3px 3px 0px 0px;margin:1px;}
+.nav ul li a {display:block;width:auto;height:40px;text-decoration:none;color:#777;}
+.nav ul li a:hover {color:#42973c;}
+.logo {width:187px;height:57px;padding-left:30px;}
+.DB_tab25 {width:100%;position:relative;height:350px;overflow:hidden;background:url("banner/bg1.png")/*tpa=http://www.maxsunindustry.com/images/m108/green/banner/bg1.png*/;cursor:pointer;top:0;}
+.DB_tab25 .DB_bgSet {position:relative;}
+.DB_tab25 .DB_bgSet img {width:100%;height:auto;}
+.DB_tab25 .DB_bgSet li {position:absolute;width:100%;height:425px;display:none;}
+.DB_tab25 .DB_imgSet {position:absolute;width:980px;left:50%;margin-left:-425px;}
+.DB_tab25 .DB_imgSet .DB_1_1 {position:absolute;left:-70px;top:78px;}
+.DB_tab25 .DB_imgSet .DB_1_2 {position:absolute;left:-70px;top:226px;}
+.DB_tab25 .DB_imgSet .DB_1_3 {position:absolute;left:530px;top:150px;}
+.DB_tab25 .DB_imgSet .DB_2_1 {position:absolute;left:-70px;top:78px;}
+.DB_tab25 .DB_imgSet .DB_2_2 {position:absolute;left:-70px;top:226px;}
+.DB_tab25 .DB_imgSet .DB_2_3 {position:absolute;left:530px;top:150px;}
+.DB_tab25 .DB_imgSet .DB_3_1 {position:absolute;left:-70px;top:78px;}
+.DB_tab25 .DB_imgSet .DB_3_2 {position:absolute;left:-70px;top:226px;}
+.DB_tab25 .DB_imgSet .DB_3_3 {position:absolute;left:530px;top:150px;}
+.DB_tab25 .DB_menuWrap {position:absolute;width:980px;left:50%;margin-left:-425px;}
+.DB_tab25 .DB_menuWrap .DB_menuSet {position:absolute;width:100%;top:410px;left:380px;font-size:0;border-radius:20px;}
+.DB_tab25 .DB_menuWrap .DB_menuSet li {cursor:pointer;margin:0px 3px;display:inline}
+.DB_tab25 .DB_prev {position:absolute;left:-185px;top:197px;cursor:pointer;display:none;}
+.DB_tab25 .DB_next {position:absolute;right:-56px;top:197px;cursor:pointer;display:none;}
+#banner {clear:both;min-width:1000px;background:#FFF;width:100%;margin:0px auto;}
+.slider_img {display:block;text-align:center;height:100%;}
+.slider_img img {margin:0px auto;max-width:100%;width:auto;height:auto;}
+.wmuSlider {height:100%!important;position:relative;overflow:hidden;}
+.bbdd {z-index:2;position:absolute;bottom:2%;margin:0px;padding:0px;width:100%;text-align:center;}
+.bbdd li {margin:0px 8px 10px 0px;list-style-type:none;display:inline-block;}
+.bbdd a {display:inline-block;text-indent:-9999px;width:16px;height:16px;background:url("dot.png")/*tpa=http://www.maxsunindustry.com/images/m108/green/dot.png*/ no-repeat 0 -16px;display:block;border-radius:16px;overflow:hidden;}
+.bbdd a.wmuActive {background-position:0 0;}
+.banner {width:100%;text-align:center;margin:0px auto;margin-bottom:10px;background:#EEE url("bg1.jpg")/*tpa=http://www.maxsunindustry.com/images/m108/green/bg1.jpg*/ bottom repeat-x;}
+.banner img {min-width:1000px;max-width:100%;}
+.but {display:block;background-image:url("images/dbg01.png")/*tpa=http://www.maxsunindustry.com/images/m108/green/images/dbg01.png*/;background-repeat:no-repeat;position:fixed;width:62px;height:62px;cursor:pointer;right:1%;top:132px;}
+.but dl {position:absolute;display:none;left:-200px;width:200Px;height:auto;background-image:url("images/dbg.jpg")/*tpa=http://www.maxsunindustry.com/images/m108/green/images/dbg.jpg*/;margin:0px;padding:0px;}
+.but dd {width:200px;height:30px;margin:0px;padding:0px;text-align:center;line-height:30px;border-top:#887171 1px solid;border-bottom:#887171 1px solid;}
+.but a {color:white;}
+.but dd:hover {background-color:#4B4A4A;color:#999;}
+.search_box01 {display:none;}
+.but01 {display:block;background-image:url("images/MENU.png")/*tpa=http://www.maxsunindustry.com/images/m108/green/images/MENU.png*/;background-repeat:no-repeat;position:fixed;width:50px;height:50px;cursor:pointer;right:2%;top:202px;}
+.but01 dl {position:absolute;display:none;left:-280px;width:280Px;height:auto;background-color:#D7373A;margin:0px;padding:0px;}
+.but01 span {font-size:18px;}
+.but01 dd {width:280px;height:30px;margin:0px;padding:0px;border-top:#887171 1px solid;border-bottom:#887171 1px solid;text-align:center;line-height:30px;}
+.but01 a {color:white;}
+.but01 dd:hover {background-color:#929292;color:#999;}
+.but02 {display:block;background-image:url("images/MENU.png")/*tpa=http://www.maxsunindustry.com/images/m108/green/images/MENU.png*/;background-repeat:no-repeat;position:fixed;width:50px;height:50px;cursor:pointer;right:2%;top:202px;}
+.but02 dl {position:absolute;display:none;left:-280px;width:280Px;height:auto;background-color:#D7373A;margin:0px;padding:0px;}
+.but02 dd {width:280px;height:30px;margin:0px;padding:0px;text-align:center;border-top:#887171 1px solid;border-bottom:#887171 1px solid;line-height:30px;}
+.but02 a {color:white;}
+.but02 dd:hover {background-color:#929292;color:#999;}
+#SubmitEmail_I, #SubmitName_I {height:22px;width:180px;color:#434343;padding-left:3PX;}
+#SubmitEmail_I {height:22px;width:180px;color:#434343;padding-left:3PX;}
+.about {width:1100px;height:300px;margin:0px auto;margin-top:0px;}
+.textbox {width:70%;height:300px;float:left;}
+.text_top {width:auto;height:73px;}
+.text_top1 {width:92px;height:73px;float:left;background:url("main1_icon.png")/*tpa=http://www.maxsunindustry.com/images/m108/green/main1_icon.png*/ no-repeat;}
+.text_top_z {width:92px;height:73px;float:left;background:url("../../../static/Content/File_Img/10379/bg.png")/*tpa=http://www.maxsunindustry.com/static/Content/File_Img/10379/bg.png*/ no-repeat;}
+.text_top2 {height:73px;float:left;}
+.text_top2 a {display:block;width:auto;text-decoration:none;font-size:25px;font-weight:bold;color:#000;padding-left:5px;padding-top:10px;}
+.text_top2 p {width:auto;font-size:16px;color:#888888;line-height:33px;}
+.text_center {width:90%;padding-top:20px;padding-left:30px;line-height:20px;font-size:14px;color:#888888;text-align:justify;text-justify:newspaper;text-indent:24px;}
+.text_bmt {padding-top:20px;padding-left:30px;}
+.text_bmt a {display:block;width:118px;height:38px;background:url("main1_btm.png")/*tpa=http://www.maxsunindustry.com/images/m108/green/main1_btm.png*/ no-repeat;}
+.text_bmt a:hover {background:url("main1_btm2.png")/*tpa=http://www.maxsunindustry.com/images/m108/green/main1_btm2.png*/ no-repeat;}
+.imgbox {width:30%;float:left;padding-top:50px;overflow:hidden;}
+.img_video {width:90%;padding-left:60px;}
+video {border:5px solid #000;}
+.lsbox {width:100%;height:auto;position:relative;clear:both;}
+.ls_a a {display:block;width:125px;height:149px;background:url("main2_link_pic1.png")/*tpa=http://www.maxsunindustry.com/images/m108/green/main2_link_pic1.png*/ no-repeat;position:absolute;top:40px;left:1350px;}
+.ls_a a:hover {background:url("main2_link_pic2.png")/*tpa=http://www.maxsunindustry.com/images/m108/green/main2_link_pic2.png*/ no-repeat;}
+.main {width:100%;height:787px;background:url("main3-bj.png")/*tpa=http://www.maxsunindustry.com/images/m108/green/main3-bj.png*/ no-repeat top center;}
+.mainbox {width:100%;height:336px;padding-top:50px;margin:0px auto;}
+.main_box2 {height:336px;width:1100px;margin:0px auto;}
+.main_box3 {height:336px;width:1060px;margin:50px auto 0px;}
+.main_box3 img {max-width:1060px;max-height:336px;}
+.main_left {width:330px;height:305px;margin-left:17px;margin-top:15px;float:left;background-color:#FFF;}
+.main_center {width:364px;height:305px;margin-left:17px;margin-top:15px;float:left;background-color:#FFF;}
+.main_bottom {width:330px;height:305px;margin-left:17px;margin-top:15px;float:left;background-color:#FFF;}
+.news_title {font-size:18px;padding-top:27px;padding-left:17px;}
+.news_title a {text-decoration:none;color:#161616;}
+.news_center {width:300px;height:83px;padding-left:17px;padding-top:20px;padding-bottom:30px;}
+.news_img {padding-right:10px;float:left;}
+.news_img img {width:140px;height:90px;}
+.news_center_text {width:150px;height:83px;float:left;text-align:justify;text-justify:newspaper;}
+.news_center_text1 {width:130px;height:33px;float:left;font-size:13px;font-weight:bold;text-align:left;}
+.news_center_text1 a {text-decoration:none;color:#4d934a;}
+.news_center_text1 a:hover {text-decoration:underline;}
+.news_center_text2 {width:130px;height:33px;float:left;color:#8e8e8e;padding-top:3px;}
+.news_btm {width:268px;height:30px;margin:0px auto;border-bottom:dotted 1px #b4b4b4;line-height:30px;overflow:hidden;}
+.news_btm a {text-decoration:none;color:#8e8e8e;}
+.news_btm a:hover {color:#434343;}
+.news_icon {width:30px;height:30px;float:left;background:url("news_icon.jpg")/*tpa=http://www.maxsunindustry.com/images/m108/green/news_icon.jpg*/ no-repeat center center;}
+.main2_img {width:326px;height:121px;margin:0px auto;padding-top:20px;}
+.main2_img img {width:326px;height:121px;}
+.main2_title {width:326px;height:auto;margin:0px auto;font-size:18px;padding-top:10px;padding-bottom:10px;}
+.main2_title a {text-decoration:none;color:#161616;}
+.main2_text {width:326px;height:105px;overflow:hidden;margin:0px auto;color:#888888;font-size:14px;line-height:22px;text-align:inherit;}
+.main3_img {width:290px;height:121px;margin:0px auto;padding-top:20px;}
+.main3_img img {width:290px;height:121px;}
+.main3_title {width:290px;height:auto;margin:0px auto;font-size:18px;padding-top:10px;padding-bottom:10px;}
+.main3_title a {text-decoration:none;color:#161616;}
+.main3_text {width:290px;height:105px;overflow:hidden;margin:0px auto;color:#888888;font-size:14px;line-height:22px;text-align:inherit;}
+.hezuo {display:none;width:76%;height:354px;margin:0px auto;position:absolute;top:1640px;left:170px;background:url("main4-img.jpg")/*tpa=http://www.maxsunindustry.com/images/m108/green/main4-img.jpg*/ no-repeat center;}
+.hezuo a {display:block;width:auto;height:auto;text-decoration:none;font-size:15px;color:#f3f3f3;position:absolute;top:285px;left:120px;}
+.hezuo a:hover {text-decoration:underline;color:#2a5e08;}
+.fl {float:left;}
+.fr {float:right;}
+.hezuo1 {width:1100px;height:50px;margin:15px auto;height:auto;}
+.hezuo1_1 {width:500px;margin:0px 10px;height:auto;font-size:18px;background:url("link_bj.png")/*tpa=http://www.maxsunindustry.com/images/m108/green/link_bj.png*/ no-repeat right;}
+.hezuo2 {width:1100px;height:auto;margin:0px auto;height:auto;}
+.hezuo2 ul {width:510px;height:auto;padding-top:25px;}
+.hezuo2 ul li {width:auto;height:50px;float:left;padding-right:10px;}
+.hezuo2 ul.ml20 {margin-left:10px;}
+.hezuo2 ul.ml20 li img {width:auto;height:50px;}
+.hezuo2 ul.ml35 {margin-left:35px;}
+.mainmap {background:url("mainmap.png")/*tpa=http://www.maxsunindustry.com/images/m108/green/mainmap.png*/ no-repeat top center;}
+.foot {width:100%;height:239px;background:url("footbj.jpg")/*tpa=http://www.maxsunindustry.com/images/m108/green/footbj.jpg*/ no-repeat;}
+.foot_text {width:1100px;height:auto;margin:0px auto;}
+.foot_text_1 {width:586px;height:170px;float:left;}
+.foot_text_1_1 {width:100%;font-size:14px;color:#FFF;font-weight:bold;padding-top:30px;}
+.foot_text_1_2 {width:100%;font-size:13px;color:#FFF;line-height:16px;padding-top:8px;}
+.foot_text_1_3 {width:100%;padding-top:20px;}
+.foot_text_1_3_1 {width:200px;height:30px;float:left;padding-top:2px;}
+.foot_text_1_3_2 {width:200px;height:30px;float:left;padding-top:2px;}
+.foot_text_1_3_3 {width:76px;height:29px;float:left;}
+.foot_text_2 {width:400px;height:170px;float:left;margin-left:114px;}
+.foot_text_2_1 {width:100%;font-size:14px;color:#FFF;font-weight:bold;padding-top:30px;}
+.foot_text_2_2 {width:100%;font-size:13px;color:#FFF;line-height:16px;padding-top:8px;}
+.foot_text_2_3 {width:100%;padding-top:20px;}
+.foot_text_2_3 img {width:30px;height:30px;}
+.foot_text_2_3 a {padding-right:5px;}
+.huise_line {width:76%;height:1px;margin:0px auto;background-color:#4d4f4f;margin-top:10px;}
+.fu_nav {width:1100px;height:55px;margin:0px auto;text-align:center;}
+.fu_nav_left {width:50%;float:left;color:#FFF;line-height:55px;}
+.fu_nav_left li, .fu_nav li {display:inline-block;}
+.fu_nav_left a {text-decoration:none;color:#22b417;font-size:13px;font-weight:bold;padding-left:5px;padding-right:5px;border-right:solid 1px #CCC;}
+.fu_nav_right {width:50%;float:left;color:#FFF;line-height:55px;text-align:right;}
+.fu_nav_left li#LiProCate4 a {border-right:0;}
+.fu_nav a {text-decoration:none;color:#FFF;font-size:13px;padding:0px 3px;border-right:solid 1px #CCC;}
+.foot_2 {width:100%;height:47px;background:url("bottom_bj.jpg")/*tpa=http://www.maxsunindustry.com/images/m108/green/bottom_bj.jpg*/ no-repeat;}
+.foot_2_ {width:1100px;height:47px;margin:0px auto;}
+.font_2_1 {width:auto;height:47px;float:left;color:#FFF;text-align:left;line-height:47px;}
+.font_2_1 a {text-decoration:none;color:#FFF;}
+.font_2_1 a:hover {color:#434343;}
+.font_2_1_1 {width:auto;height:47px;float:left;color:#FFF;text-align:left;line-height:47px;}
+.font_2_1_1 a {text-decoration:none;color:#FFF;}
+.font_2_1_1 a:hover {color:#434343;}
+.list_box {width:1100px;margin:0px auto;padding-top:35px;}
+.content_box {width:230px;float:left;}
+#content {width:229px;clear:both;text-align:center;padding-bottom:5px;color:#FFF;}
+#content div {display:none;}
+#content div ul li {height:42px;width:auto;text-align:left;border:1px solid #DDD;border-top:none;padding-left:10px;color:#333;}
+#content div ul li a {line-height:42px;color:#666;text-decoration:none;}
+#content div ul li a:hover {color:#139ac1;}
+.content_box2 {width:229px;float:left;}
+#content2 {width:229px;clear:both;text-align:center;padding-bottom:5px;color:#FFF;}
+#content2 h3 {cursor:pointer;line-height:42px;height:42px;background:url("list_bj.jpg")/*tpa=http://www.maxsunindustry.com/images/m108/green/list_bj.jpg*/ no-repeat;font-size:14px;text-align:left;padding-left:6px;}
+#content2 h3:hover {color:#097a1f;}
+#content2 div {display:none;}
+#content2 div ul li {height:42px;width:auto;text-align:left;border:1px solid #DDD;border-top:none;padding-left:10px;color:#333;}
+#content2 div ul li a {line-height:42px;color:#666;text-decoration:none;}
+#content2 div ul li a:hover {color:#139ac1;}
+.list_right {height:auto;float:left;margin-left:20px;width:100%;}
+.location {clear:both;margin:0px auto;padding:10px 0px;color:#666;border-bottom:1px dashed #999;}
+.location a {padding-top:20px;color:#666;text-decoration:none;}
+.list_title {clear:both;margin:0px auto;padding:5px 0px;color:#209E30;}
+.list_text {width:100%;margin-left:0px;float:left;color:#676767;font-size:14px;}
+.xuxian {float:left;height:1px;width:850px;padding-top:20px;border-bottom:dashed 1px #A5A4A4;}
+.return {display:none;}
+.list_right_ {width:850px;float:right;margin:0px 0px 20px 0px;}
+.product_ {width:140%;height:auto;float:left;padding-left:20px;}
+.product_box {width:280px;height:360px;margin-left:2px;float:left;border-bottom:1px solid #DDD;padding-top:45px;}
+.product_img {width:250px;height:250px;}
+.product_img img {width:250px;}
+.product_img img:hover {width:255px;}
+.product_text1 {width:250px;height:auto;font-size:14px;font-weight:bold;color:#010101;text-align:center;margin-top:15px;}
+.product_text1 a {color:#010101;text-decoration:none;}
+.product_text1 a:hover {text-decoration:underline;}
+.product_text2 {width:250px;height:auto;font-size:13px;color:#666;text-align:center;padding-top:10px;}
+.product_text3 {line-height:24px;padding-top:5px;}
+.product_text3 a {text-decoration:none;color:#309142;font-size:12px;}
+.product_text3 a:hover {color:#434343;}
+.product_btm {float:left;padding-left:50px;padding-right:5px;}
+.pega {width:90%;float:left;margin-top:30px;text-align:right;line-height:25px;margin-right:50px;}
+.pega a {display:block;float:right;width:25px;height:25px;background-color:#336fc4;line-height:25px;text-align:center;color:#FFF;text-decoration:none;margin-left:10px;}
+.pega a:hover {background-color:#2659a0;}
+#pegaid {background-color:#2659a0;}
+.product_view {width:402px;height:351px;border:1px solid #ECECEC;margin-top:30px;float:left;}
+.right2 {width:903px;height:800px;margin-left:240px;}
+.right2 h4 {color:#7e7e7e;font-size:12px;}
+.right2_text {width:473px;height:351px;float:left;margin-left:25px;margin-top:30px;}
+.right2_text h2 {font-size:24px;color:#186eb4;}
+.right2_text h4 {font-size:18px;color:#767676;margin-top:10px;margin-bottom:20px;}
+.right2_text p {font-size:12px;color:#676767;line-height:22px;}
+.right2_text img {margin-top:40px;}
+.product_details {width:100%;margin-top:10px;float:left;line-height:30px;}
+.b1 {height:28px;border-bottom:2px solid #828282;}
+.b1 ul li {width:105px;height:28px;font-size:14px;color:#FFF;margin-right:2px;float:left;line-height:23px;background:#D8D8D8;padding:0px 10px;cursor:pointer;}
+.b1 ul li:hover, .b1 ul li.current {width:105px;height:28px;line-height:28px;font-size:14px;color:#000;background:#828282;display:block;padding:0px 10px;}
+.b1 ul li {float:left;width:105px;height:28px;margin-right:5px;text-align:center;line-height:28px;}
+.b1 ul li a {font-size:12px;}
+.ptitle {height:28px;border-bottom:2px solid #209e30;clear:both;text-align:center;margin:12px auto;}
+.ptitle h3 {width:105px;height:28px;font-size:14px;color:#FFF;margin-right:2px;float:left;line-height:23px;background:#209e30;padding:0px 10px;}
+.tab_box {width:100%;height:800px;margin-top:25px;}
+.tab_box p {font-size:12px;color:#434343;}
+.tab_box h1 {font-size:24px;color:#464646;margin-top:30px;}
+.tab_box img {margin-top:10px;}
+.box2 {width:320px;height:22px;border:1px solid #b9babf;float:left;margin-left:20px;}
+.tab_box h3 {font-size:12px;color:#434343;float:left;}
+.box3 {width:320px;height:22px;border:1px solid #b9babf;float:left;margin-top:14px;margin-left:22px;}
+.tab_box h2 {font-size:24px;color:#464646;margin-bottom:26px;}
+.textarea {width:881px;height:40px;margin-top:150px;position:relative;}
+.wenben {float:left;position:absolute;left:57px;top:-32px;}
+.btn2 {width:53px;height:20px;border:none;background:url("submit_06.jpg")/*tpa=http://www.maxsunindustry.com/images/m108/green/submit_06.jpg*/ no-repeat;float:left;margin-left:64px;cursor:pointer;}
+.btn3 {width:43px;height:20px;border:none;background:url("reset_08.jpg")/*tpa=http://www.maxsunindustry.com/images/m108/green/reset_08.jpg*/ no-repeat;float:left;margin-left:9px;cursor:pointer;}
+.bottom3 {width:1900px;height:42px;text-align:center;margin:0px auto;background:#000;}
+.bottom3 h4 {font-size:12px;color:#6E6E6E;padding-top:15px;}
+.bottom3 h4 a {font-size:12px;color:#6E6E6E;margin-top:15px;}
+.xuxian2 {clear:both;margin:10px auto;width:400px;border-bottom:dashed 1px #A5A4A4;}
+.product_2 {width:140%;height:auto;float:left;}
+.product_view2 {width:227px;height:180px;margin-top:30px;float:left;text-align:center;overflow:hidden;}
+.product_view2 img {width:180px;}
+.product_view2 img:hover {width:180px;}
+.right3_text {float:left;height:170px;margin-left:25px;margin-top:30px;width:560px;overflow:hidden;}
+.right3_text h2 {font-size:20px;color:#186eb4;}
+.right3_text h4 {margin-top:0px;margin-bottom:20px;height:20px;overflow:hidden;}
+.right3_text h4 a {font-size:18px;color:#000;text-decoration:none;}
+.right3_text h4 a:hover {color:#22b417}
+.right3_text h3 {margin-top:0px;margin-bottom:20px;height:20px;overflow:hidden;}
+.right3_text h3 a {font-size:18px;color:#000;text-decoration:none;}
+.right3_text h3 a:hover {color:#22b417}
+.right3_text .word {width:550px;line-height:20px;height:60px;word-wrap:break-word;overflow:hidden;}
+.right3_text p {font-size:12px;color:#676767;line-height:22px;}
+.right3_text img {margin-top:25px;}
+.websiteWrapper {display:none;}
+.mainMenuWrapper {display:none;}
+.headerWrapper {display:none;}
+.cdan {display:none;width:100%;}
+.cdan_box {display:none;width:80%;margin:0px auto;}
+.cdan_btm {display:none;width:20%;margin-left:20px;margin-right:20px;}
+.cdan2 {display:none;}
+.home_products_box {display:none;width:100%;height:auto;float:left;}
+.home_products {display:none;float:left;width:45%;height:250px;margin-left:2.5%;margin-right:2.5%;margin-top:40px;background-color:#000;}
+.home_products_img {display:none;width:auto;height:250px;}
+.product_4 {width:100%;height:auto;float:left;padding-left:15px;}
+.product_view4 {margin-top:30px;float:left;text-align:center;width:400px;}
+.right4_text {width:400px;margin-left:30px;text-align:left;float:left;margin-top:40px;}
+.right4_text h1 {font-size:20px;padding:0px 0px 10px 0px;color:#209e30;}
+.right4_text h4 {font-size:12px;font-weight:normal;max-height:150px;overflow:hidden;}
+.right4_text p {font-size:12px;color:#676767;line-height:22px;}
+.duotu {float:left;width:440px;padding:0px 10px !important;border-right:1px solid #f8f8f8;}
+.lxwm {display:none;}
+.message {margin-top:30px;}
+.message h4 {font-size:13px;}
+.message table {margin:20px 20px 20px 0px;}
+table td {text-align:left;padding:.4em .8em;}
+.message td input, .message td select, .message td textarea {width:280px;padding:.5em .3em;border:1px solid #DDD;}
+.message td textarea {height:90px;}
+.message .wcode {float:left;width:200px;}
+.message .imgcode {border:1px solid #DDD;cursor:pointer;height:29px;width:95px;}
+.message td input.wcode {float:left;width:210px;}
+.message td img {float:left;margin-left:5px;}
+.message button {height:24px;line-height:10px;margin:0px 15px;width:60px;}
+.message button:hover {cursor:pointer;}
+.neidiv table tbody tr {width:790px;}
+#xftp {cursor:pointer;display:block;position:fixed;right:0;top:30%;}
+#rightDiv {background:#FFF none repeat scroll 0 0;border:1px solid #3261a8;display:block;line-height:20px;margin:0px;padding:0px;position:fixed;right:-130px;text-align:center;top:30%;width:118px;}
+#rightDiv p {background:#0075b8 none repeat scroll 0 0;color:#FFF;display:block;font-size:12px;font-weight:bold;height:35px;line-height:35px;margin:0 0 10px;padding:0px;}
+#rightDiv a {color:#000;display:block;margin:0 0 7px;padding:0px;}
+#rightDiv a:hover {color:#01b5ed;}
+#content h3 {cursor:pointer;line-height:42px;height:42px;background:url("list_bj.jpg")/*tpa=http://www.maxsunindustry.com/images/m108/green/list_bj.jpg*/ no-repeat;font-size:14px;text-align:left;padding-left:6px;}
+#content h3:hover {text-decoration:none;color:#FFF;opacity:0.9;}
+#content h3 a {color:#FFF;text-decoration:none;}
+#content h3 a:hover {color:#FFF;text-decoration:none;}
+.sf-menu {width:229px;margin:0px auto;}
+.sf-menu li {clear:both;font-weight:bold;margin-bottom:4px;background:url("list_bj.jpg")/*tpa=http://www.maxsunindustry.com/images/m108/green/list_bj.jpg*/ no-repeat;}
+.sf-menu li a, .sf-menu li:hover a {display:block;vertical-align:middle;color:#FFF;line-height:42px;font-size:14px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;text-indent:10px;text-decoration:none;}
+.sf-menu li:hover {opacity:0.9;}
+.sf-menu li ul {display:none;margin:12px auto;}
+.sf-menu li:hover ul {display:block;}
+.sf-menu li li {clear:both;position:relative;text-transform:capitalize;margin:0px auto;background:url("ico2.png")/*tpa=http://www.maxsunindustry.com/images/m108/green/ico2.png*/ 10px 11px no-repeat;padding:4px 0 0 0;}
+.sf-menu li li a, .sf-menu li:hover li a {display:block;line-height:20px;color:#333;padding:2px 0 4px 6px;text-decoration:none;font-size:12px;text-indent:12px;border-bottom:solid 1px #EEE;}
+.sf-menu li li a:hover {text-decoration:none;color:#22b417}
+ul.sf-menu ul ul {position:absolute;left:229px;width:229px;top:0px;margin:0px;padding:0px;visibility:hidden;border:0px;padding:0px;border-radius:0px;background:#FFF;border:1px solid #FFF;border-left:0px;}
+.sf-menu li li li {background:#FFF;padding:0px;}
+.sf-menu li li:hover {opacity:1;}
+.sf-menu li li li a, .sf-menu li:hover li li a {text-decoration:none;background:url("pro_list_icon.png")/*tpa=http://www.maxsunindustry.com/images/m108/green/pro_list_icon.png*/ #d4d4d4 no-repeat 6px 11px;border-bottom:1px solid #bbb;padding:5px 0px 3px 12px;text-indent:2px;}
+ul.pro-menu {margin-top:-1px;margin:0px;padding:0px;text-transform:capitalize;}
+ul.sf-menu li:hover > ul {visibility:visible;margin:0px;padding:0px;}
+.contactcss {line-height:24px;padding:8px 0 0 18px;clear:both;}
+.contactcss li {font-size:14px;}
+.sf-menu1 {width:229px;margin:0px auto;}
+.sf-menu1 li {clear:both;font-weight:bold;margin-bottom:4px;background:url("list_bj.jpg")/*tpa=http://www.maxsunindustry.com/images/m108/green/list_bj.jpg*/ no-repeat;}
+.sf-menu1 li a, .sf-menu1 li:hover a {display:block;vertical-align:middle;color:#FFF;line-height:42px;font-size:14px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;text-indent:10px;text-decoration:none;}
+.sf-menu1 li:hover {opacity:0.9;}
+.sf-menu1 li ul {margin:12px auto;}
+.sf-menu1 li:hover ul {display:block;}
+.sf-menu1 li li {clear:both;position:relative;text-transform:capitalize;margin:0px auto;background:url("ico2.png")/*tpa=http://www.maxsunindustry.com/images/m108/green/ico2.png*/ 10px 11px no-repeat;padding:4px 0 0 0;}
+.sf-menu1 li li a, .sf-menu1 li:hover li a {display:block;line-height:20px;color:#333;padding:2px 0 4px 6px;text-decoration:none;font-size:12px;text-indent:12px;border-bottom:solid 1px #EEE;}
+.sf-menu1 li li a:hover {text-decoration:none;color:#22b417}
+ul.sf-menu1 ul ul {position:absolute;left:229px;width:229px;top:0px;margin:0px;padding:0px;visibility:hidden;border:0px;padding:0px;border-radius:0px;background:#FFF;border:1px solid #FFF;border-left:0px;}
+.sf-menu1 li li li {background:#FFF;padding:0px;}
+.sf-menu1 li li:hover {opacity:1;}
+.sf-menu1 li li li a, .sf-menu1 li:hover li li a {text-decoration:none;background:url("pro_list_icon.png")/*tpa=http://www.maxsunindustry.com/images/m108/green/pro_list_icon.png*/ #d4d4d4 no-repeat 6px 11px;border-bottom:1px solid #bbb;padding:5px 0px 3px 12px;text-indent:2px;}
+ul.pro-menu {margin-top:-1px;margin:0px;padding:0px;text-transform:capitalize;}
+ul.sf-menu1 li:hover > ul {visibility:visible;margin:0px;padding:0px;}
+.contactcss {line-height:24px;padding:8px 0 0 18px;clear:both;}
+.contactcss li {font-size:14px;}
+.submenu_info {clear:both;border:solid 1px #EEE;border-radius:2px;padding:8px 6px;margin:4px 8px;}
+.proIntro {clear:both;margin:10px 0px;padding:6px;color:#7C7C7C;border:solid 1px #EEE;border-radius:5px;}
+.prosubmenu li {float:left;width:32%;line-height:24px;}
+.prosubmenu {padding:3px 0px 0px 10px;}
+.clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix {*zoom:1;}
+.product_class_name {font-size:32px;color:#0F0F0F;line-height:45px;font-weight:bold;}
+.newsDate {clear:both;margin:0px auto;padding:2px;text-align:right;line-height:20px;}
+.newslist {clear:both;margin:6px auto;width:790px;}
+.newslist li {text-align:right;height:42px;color:#999;font-size:12px;background:url("news_ico.jpg")/*tpa=http://www.maxsunindustry.com/images/m108/green/news_ico.jpg*/ 2px center no-repeat;border-bottom:1px dashed #DDD;line-height:42px;text-indent:20px;}
+.newslist li a {float:left;color:#666;font-weight:bold;text-decoration:none;}
+.newslist li a:hover {color:#22b417!important;}
+.news .news_detail_title {width:790px;padding-top:10px;text-align:center;font-size:18px;font-weight:bold;color:#333;}
+.news .news_detail_time {width:790px;padding-top:3px;text-align:center;font-size:12px;color:#333;}
+.news .news_detail_content {width:790px;text-align:left;padding:20px 0px;font-size:12px;color:#333;line-height:20px;}
+
+.newslist .news__list{text-indent: 0;margin:10px;height: unset;background-image: unset;overflow: hidden;}
+.newslist .news__list .news-pic{width:180px;text-align: left;margin-right: 30px;}
+.newslist .news__list .news-pic img{max-width: 180px;}
+.newslist .news__list .news__text{max-width: 560px;text-align: left;float: left;}
+
+.prevNext {height:28px;clear:both;padding-top:15px;width:96%;}
+.prevNext a {font-weight:bold;color:#000;text-decoration:none;}
+.prevNext a:hover {color:#22b417;text-decoration:underline;}
+.prevNext .prev {float:left;color:#999;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:45%;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+.prevNext .next {float:right;color:#999;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:45%;text-align:right;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+.rnews, .rollPro {margin:0px auto;clear:both;padding-bottom:12px;}
+.rnews h3, .rollPro h3 {font-size:14px;line-height:24px;color:#000;font-weight:bold;}
+.rnews li {float:left;width:50%;height:28px;line-height:28px;}
+.rnews li a {display:block;white-space:nowrap;margin-right:4%;text-overflow:ellipsis;overflow:hidden;font-size:12px;border-bottom:1px dashed #EEE;color:#333;background:url("dd.gif")/*tpa=http://www.maxsunindustry.com/images/m108/green/dd.gif*/ 4px center no-repeat;text-indent:12px;text-decoration:none;}
+.rnews li a:hover {color:#22b417;}
+.rollPro {height:220px;}
+.rollPro .Cont {width:760px;overflow:hidden;margin:12px auto;}
+.rollPro .ScrCont {width:2500px;}
+.rollPro .pic {width:142px;padding:0px 5px;}
+.rollPro .pbox img {max-width:140px;max-height:120px;line-height:120px;_margin-top:expression_r((300-this.height)/2);}
+.rollPro .pbox {width:140px;height:120px;text-align:center;vertical-align:middle;display:table-cell;border:solid 1px #EEE;margin:0px auto;}
+.rollPro p {height:42px;overflow:hidden;line-height:20px;text-align:center;}
+.rollPro #List1, .rollPro #List2, .rollPro .wen_jt, .rollPro .Cont, .rollPro .pic {float:left;}
+.rollPro .wen_jt {width:24px;padding-top:45px;}
+.productsTags {clear:both;padding-top:12px;}
+.pro_item {clear:both;padding-top:20px;}
+.pages {clear:both;text-align:center;font-size:12px;padding:15px 0px;color:#B2B2B2;}
+.pages a, .pages span {display:inline-block;height:24px;padding:0px 2px;margin:0px 2px;line-height:24px;}
+.pages a:link, .pages a:visited {color:#666;line-height:24px;}
+.pages a:hover, .pages a:active, .pages span.ctxt {color:#209E30;font-weight:bold;text-decoration:none;}
+.pro_lb0 {clear:both;margin:0px auto;padding:0px;}
+.pro_lb0 li {clear:both;border-bottom:solid 1px #EEE;padding:8px 0px;}
+.pro_lb0 li:hover {background:#FFFCF3;}
+.pro_lb0 .fl {float:left;padding-right:20px;}
+.pro_lb0 .pimg {background:#FFF;width:150px;text-align:center;vertical-align:middle;display:table-cell;}
+.pro_lb0 img {max-width:150px;_width:150px;border:solid 1px #EEE;padding:2px;}
+.pro_lb0 p {line-height:20px;margin:0px;padding:0px;}
+.pro_lb0 .pinfo {display:block;font-size:12px;color:#777;}
+.pro_lb0 strong {height:28px;font-size:14px;line-height:18px!important;}
+.pro_lb0 strong a {color:#000;font-weight:bold;}
+.pro_lb0 strong a:hover {color:#209E30}
+.pro_lb0 h3 {margin:0px;padding:0px;font-size:14px;line-height:18px!important;}
+.pro_lb0 h3 a {color:#000;font-weight:bold;}
+.pro_lb0 h3 a:hover {color:#209E30}
+.pro_lb0 span {display:block;}
+.pro_lb0 .inquire a {float:right;color:#FFF;margin:4px;background:#FF7519 url("../../contact-now.gif")/*tpa=http://www.maxsunindustry.com/images/contact-now.gif*/ 6px center no-repeat;padding:0px 8px 0px 22px;border:1px solid #FF7519;border-radius:3px;}
+.pro_lb0 .inquire a:hover {background-color:#FF9147;}
+.pro_lb0 .inquire {float:right;}
+.pro_lb0 .more {text-align:right;padding-right:16px;color:#999;}
+.pro_lb0 .more a {float:left;color:#000;margin:8px 0px;background:url("../../pro-more.png")/*tpa=http://www.maxsunindustry.com/images/pro-more.png*/ left center no-repeat;padding:0px 0px 0px 18px;}
+.pro_lb0 .more a:hover {color:#209E30}
+.pro_lb1 {clear:both;margin:12px auto;width:910px;padding-top:20px;padding-left:35px;}
+.pro_lb1 li {width:248px;height:270px;float:left;margin-right:36px;background:url("prolist_show_bg.jpg")/*tpa=http://www.maxsunindustry.com/images/m108/green/prolist_show_bg.jpg*/ left top no-repeat;margin-bottom:20px;border-bottom:1px solid #DDD;}
+.pro_lb1 img {max-width:248px;max-height:220px;line-height:220px;_margin-top:expression_r((300-this.height)/2);padding:0px 0px 12px 0px;}
+.pro_lb1 .pimg {width:248px;height:220px;text-align:center;vertical-align:middle;display:table-cell;padding-top:2px;}
+.pro_lb1 .ptxt {height:48px;line-height:24px;overflow:hidden;text-align:center;padding:0px 8px;}
+.pro_lb1 .ptxt a {font-size:12px;line-height:160%;text-decoration:none;}
+.pro_lb1 .ptxt a:hover {color:#22b417}
+#products_list {float:left;padding-top:20px;}
+.probox {width:257px;height:295px;float:left;margin-left:25px;margin-right:15px;margin-bottom:20px;border:#b3b3b3 1px solid;}
+.probox A {font-size:12px;font-weight:bold;}
+.probox .pro_img {width:257px;text-align:center;}
+.probox .pro_model {width:257px;min-height:25px;text-align:center;padding-top:5px;display:block;background-color:#06417d;}
+.probox .pro_model a {color:#FFF;}
+.probox .pro_name {width:237px;height:45px;text-align:left;padding:10px;display:block;}
+.table {border-collapse:collapse;}
+.table td, .table th {border:1px solid #CDCDCD;padding:5px;}
+.table p {padding:0px;margin:0px;}
+.buybtn {clear:both;width:200px;height:40px;margin:20px 0px 0px 0px;text-align:left;line-height:40px;}
+.buybtn a {display:inline-block;padding:0px 15px;color:#FFF;height:40px;background:#0A4DA6;border-radius:2px;font-size:18px;}
+.buybtn a:hover {background:#145CBC;color:#FFF;border-radius:2px;}
+.pshare {display:block;padding:8px 0px;margin:0px;}
+.jsshare {text-align:center;padding-top:8px;}
+.pshare li {float:left;width:48%;height:28px;line-height:28px;}
+.pshare li img {vertical-align:middle;margin-right:12px;}
+.jsshare span.stxt {display:inline-block;font-size:14px;line-height:24px;padding:0px 8px 0px 0px;position:relative;}
+.jsshare a, .jsshare a img {width:35px;vertical-align:middle;}
+.addthis_sharing_toolbox {display:inline-block;}
+span.at-icon-wrapper, .at-icon-wrapper svg {width:24px!important;height:24px!important;line-height:24px!important;}
+.tenflag1, .tenflag2, .tenflag3 {width:680px;clear:both;}
+.tenflag1 {border:solid 1px #EEE;}
+.tenflag1 dt {border-bottom:solid 1px #EEE;}
+.tenflag1 dd {text-indent:12px;}
+.tenflag1 dt, .tenflag2 dt, .tenflag3 dt {font-size:16px;font-weight:bold;padding:16px 0px 12px 12px;}
+.tenflag2 dd {float:left;width:20%;margin:0px;padding:0px;line-height:36px;text-align:left;}
+.tenflag1 dd {height:36px;line-height:36px;border-bottom:solid 1px #EEE;padding:0px;margin:0px;background:#F5F5F5;}
+.tenflag1 dd span {float:left;width:36%;background:#FFF;font-weight:bold;}
+.tenflag1 dd:nth-child(2n) span {background:#F5F5F5;}
+.tenflag1 dd:nth-child(2n) {background:#FFF;}
+.tenflag2 dd {text-align:center;}
+.tenflag2 dd img {width:116px;display:block;margin:0px auto;padding-bottom:0px!important;}
+.tenflag2 dd p {padding:0px 0px 6px 0px !important;margin:0px;}
+.tenflag3 img {width:680px!important;height:448px!important;}
+.pdown1 #A_DownLoadProduct {display:inline-block;clear:both;height:32px;margin:16px 0px 0px 0px;line-height:32px;background:url("../../../images/down1_2.png") right top no-repeat;padding-right:50px;}
+.pdown1 #A_DownLoadProduct span {display:inline-block;height:32px;background:url("../../../images/down1_1.png") no-repeat;padding:0px 0px 0px 16px;}
+.pdown2 #A_DownLoadProduct, .pdown3 #A_DownLoadProduct, .pdown4 #A_DownLoadProduct {display:inline-block;clear:both;height:45px;margin:16px 0px 0px 0px;line-height:45px;padding-right:45px;}
+.pdown2 #A_DownLoadProduct span, .pdown3 #A_DownLoadProduct span, .pdown4 #A_DownLoadProduct span {display:inline-block;height:45px;background:url("../../../images/down2_1.png") no-repeat;padding:0px 12px 0px 16px;}
+.pdown2 #A_DownLoadProduct {background:url("../../../images/down2_2.png") right top no-repeat;}
+.pdown3 #A_DownLoadProduct {background:url("../../../images/down2_3.png") right top no-repeat;}
+.pdown4 #A_DownLoadProduct {background:url("../../../images/down2_4.png") right top no-repeat;}
+.top_mail, .top_mail a {color:#FFF;line-height:35px;}
+.proCateTags {clear:both;padding:0px 6px 6px 6px;margin:0px 10px;border:solid 1px #EEE;border-radius:5px;}
+.proCateTags h3 {font-size:14px;line-height:32px;margin:0px;padding:0px;}
+.keywords {margin:12px auto;}
+.keywords a {margin-right:10px;color:#333;line-height:1.8;text-decoration:underline;display:inline-block;white-space:nowrap;text-overflow:ellipsis;}
+.keywords a:hover {text-decoration:none;}
+.qrcode {height:24px;float:right;line-height:24px;background:url("../../../images/2wm.png") no-repeat;background-size:24px 24px;text-align:left;cursor:pointer;position:relative;margin:-60px 24px 0 0;}
+.qrcode .ErWeiImg {width:24px;height:24px;opacity:0;border:1px solid #FFF;position:absolute;z-index:99999;}
+.qrcode span {display:inline-block;background:url("../../../images/bmore.png") right no-repeat;padding:0 12px 0 30px;background-size:8px 7px;color:#FFF;}
+.qrcode:hover span {background:url("../../../images/bmore1.png") right no-repeat;background-size:8px 7px;}
+#con {margin-top:30px;}
+#tagContent {clear:both;padding-top:20px;}
+#tags li {float:left;}
+#tags li a {padding:7px 16px;margin-right:6px;text-transform:uppercase;background:#999;color:#FFF;}
+ul#tags li.selectTag a {background:#209e30;}
+.moreimg {width:30%;height:auto;float:left;}
+.moreimg>.product_view2 {width:100%;height:180px;margin-top:30px;float:left;text-align:center;overflow:hidden;}
+.moreimg>.right3_text {float:left;height:170px;margin-left:25px;width:100%;overflow:hidden;}
+.moreimg>.right3_text h4 {margin-top:0px;margin-bottom:20px;height:20px;overflow:hidden;}
+.moreimg>.right3_text .word {width:100%;line-height:20px;height:60px;word-wrap:break-word;overflow:hidden;}
+.rollPro1 {width:100%;margin:10px auto;overflow:hidden;}
+.rollPro1 h2 {padding-bottom:10px;}
+.rollPro1 li {width:30%;float:left;margin-right:5%;text-align:center;}
+.rollPro1 li:nth-of-type(3) {margin-right:0%;}
+.rollPro1 li:nth-of-type(6) {margin-right:0%;}
+.rollPro1 li:nth-of-type(9) {margin-right:0%;}
+.rollPro1 li:nth-of-type(12) {margin-right:0%;}
+.rollPro1 li .pbox {border:solid 1px #EEE;padding:4px;height:150px;}
+.rollPro1 li .pbox img {max-width:100%;max-height:150px;}
+.rollPro1 li p {height:40px;line-height:20px;overflow:hidden;margin:10px auto;}
+.pro-body {clear:both;margin:0px auto;padding:0px;}

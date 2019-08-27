@@ -1,0 +1,7 @@
+#xyz{position:absolute;z-index:9999999999999999;}
+.xyz12{border-radius:3px; border:1px solid #dcdcdc; width:120px; padding:0px 4px; background:#fff; line-height:20px; position:relative;}
+.xyz12 li{ position:relative; height:20px; white-space:nowrap;text-overflow:ellipsis;overflow:hidden; line-height:20px; padding:0 4px; z-index:1;text-align:left;}.xyz12 li a{color:#333; font-size:12px;}
+.xyz12 li.selected{border-top:0px;}.xyz12 li.selected a{color:#8550d9;}
+.xyz12 span{ position:absolute; right:6px; top:0px; background: url(../static/images/C_IMG/amore.png) center no-repeat; display:block; width:20px; height:20px;cursor:pointer;z-index:100;}
+.xyz12 span.dp{background: url(../static/images/C_IMG/amore1.png) center no-repeat;  }
+.xyz12 li img { vertical-align: middle; margin:-2px 7px 0 0;width: 16px }

@@ -1,0 +1,290 @@
+/* reset */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+blockquote,
+pre,
+hr,
+figure,
+table,
+caption,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+menu {
+  margin: 0;
+  padding: 0;
+}
+header,
+footer,
+section,
+article,
+aside,
+nav,
+address,
+figure,
+figcaption,
+menu,
+details {
+  display: block;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption,
+th {
+  text-align: left;
+  font-weight: normal;
+}
+html,
+body,
+fieldset,
+img,
+iframe,
+abbr {
+  border: 0;
+}
+i,
+cite,
+em,
+var,
+address,
+dfn {
+  font-style: normal;
+}
+[hidefocus],
+summary {
+  outline: 0;
+}
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+  font-size: 100%;
+}
+sup,
+sub {
+  font-size: 83%;
+}
+pre,
+code,
+kbd,
+samp {
+  font-family: inherit;
+}
+q:before,
+q:after {
+  content: none;
+}
+textarea {
+  overflow: auto;
+  resize: none;
+}
+label,
+summary {
+  cursor: default;
+}
+a,
+button {
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+strong,
+b {
+  font-weight: bold;
+}
+del,
+ins,
+u,
+s,
+a,
+a:hover {
+  text-decoration: none;
+}
+body,
+textarea,
+input,
+button,
+select,
+keygen,
+legend {
+  font: 12px/1.14 arial;
+  color: #333;
+  outline: 0;
+}
+body {
+  background: #fff;
+}
+a,
+a:hover {
+  color: #333;
+}
+img {
+  display: block;
+}
+input,
+button {
+  border: 0 none;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+body {
+  cursor: pointer;
+}
+/*整个主题内容背景色*/
+/*标题颜色 下划线颜色*/
+/*标题下文案颜色*/
+/*图片下方下划线颜色*/
+/*文字颜色*/
+/*边框颜色*/
+.g-second9 {
+  width: 100%;
+  background: #ffffff;
+}
+.second9-main {
+  width: 100%;
+  margin: 1.28rem auto 0 auto;
+}
+.second9-container {
+  width: 92%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.second9-container h3 {
+  font-size: 0.896rem;
+  line-height: 0.93866667rem;
+  color: #1c98e7;
+  table-layout: fixed;
+  
+  overflow: hidden;
+  text-align: center;
+}
+.second9-container .line {
+  width: 1.024rem;
+  border-top: 0.08533333rem solid #1c98e7;
+  margin: 0.27733333rem auto 0 auto;
+}
+.second9-container .text {
+  margin-top: 0.64rem;
+  font-size: 0.512rem;
+  line-height: 0.64rem;
+  color: #454545;
+}
+.second9-container .ninelist {
+  width: 100%;
+  overflow: hidden;
+}
+.second9-container .ninelist-li {
+  width: 48%;
+  float: left;
+  margin-top: 0.42666667rem;
+  border: 1px solid #d3d3d3;
+}
+.second9-container .ninelist-li a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.second9-container .ninelist-li a .pic {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #d3d3d3;
+}
+.second9-container .ninelist-li a .ourstore {
+  width: 100%;
+  height: 100%;
+}
+.second9-container .ninelist-li a .li-line {
+  width: 1.024rem;
+  border-top: 0.08533333rem solid #999999;
+  margin: 0 auto;
+}
+.second9-container .ninelist-li a .mark {
+  width: 100%;
+  height: 40px;
+  padding: 5% 0 0 0;
+  table-layout: fixed;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 8%;
+  line-height: 13px;
+}
+.second9-container .ninelist-li a .mark span {
+  font-size: 0.512rem;
+  line-height: 0.64rem;
+  color: #000000;
+  display: block;
+}
+.second9-container .ninelist-li:nth-child(odd) {
+  margin-right: 2.5%;
+}
+.g-page {
+  width: 100%;
+  margin: 1.04533333rem 0;
+  overflow: hidden;
+}
+.g-page .pagelist {
+  width: 42%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.g-page .pagelist-li {
+  float: left;
+}
+.g-page .pagelist-li a {
+  width: 1.42933333rem;
+  height: 1.42933333rem;
+  color: #7d7d7d;
+  font-size: 0.64rem;
+  line-height: 1.42933333rem;
+  text-align: center;
+  display: block;
+  border: 1px solid #dddddd;
+}
+.g-page .pagelist-li a img {
+  width: 1.42933333rem;
+  height: 1.42933333rem;
+}
+.g-page .pagelist-li .pageactive {
+  border: 1px solid #ffffff;
+}

@@ -1,0 +1,7 @@
+@charset "utf-8";
+.singglepic {z-index:1;position:relative;margin:0px auto;padding:0px;width:380px;border:solid 1px #FAFAFA;text-align:center;}
+.singglepic img {max-width:378px;max-height:378px;}
+.d-slides .singglepic img {position:relative;left:0px;top:0px;max-width:378px;max-height:378px;width:auto;}
+.on {z-index:999999999999;}
+.on img {border:1px solid #CCC;z-index:99999;width:auto;text-align:center;background:#FFF;cursor:pointer;}
+.on img {max-width:600px;max-height:680px;z-index:99999;}

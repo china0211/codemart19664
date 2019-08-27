@@ -1,0 +1,113 @@
+/*chat now*/
+.list_right_{
+    line-height: 24px;
+}
+.pro_lb0,.pro_lb1{
+    overflow: hidden;
+}
+.pro_lb0 li{
+    position: relative;
+    line-height: 20px;
+}
+.pro_lb0 .fl {
+    float: left;
+    width: 28%;
+    margin: 0
+}
+.pro_lb0 li .LayImAhrefNode {
+    padding: 0px 22px;
+    margin: 8px 0px;
+    float:right;
+    width:67px;
+    border: 1px solid #FF7519;
+    background: #FF7519;
+    transition:all .5s linear 0s;
+    text-align:center;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+.pro_lb0 li .LayImAhrefNode:hover {
+    text-decoration:none;
+    background-color:#2b2b2b;
+}
+.pro_lb0 .inquire a{
+    margin: 8px 5px;
+}
+.buy {
+    clear: both;
+    width: auto;
+    height: auto;
+    margin: 20px 0px 0px 0px;
+    text-align: left;
+    line-height: 40px;
+    background:none;
+}
+.buy a {
+    width: 140px;
+    text-align: center;
+    line-height: 36px;
+    display: inline-block;
+    font-size:14px;
+}
+.buy a:hover{
+    display: inline-block;
+    color:#fff;
+}
+.buy .LayImAhrefNode{
+    width: 140px;
+    text-align: center;
+    padding:0px;
+    background: #f08000;
+    margin-left: 20px;
+    transition:all .5s linear 0s;
+}
+.buy .LayImAhrefNode:hover {
+    background:#2b2b2b;
+    color: #fff!important;
+}
+.pro_lb1 li {
+    height: 323px;
+}
+.pro_lb1 li div {
+    width:100%;
+    overflow: hidden;
+}
+.pro_lb1 li .LayImAhrefNode {
+    padding: 3px 0px;
+    color: #fff!important;
+    width: 100%;
+    margin: 5px 0px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    transition:all .5s linear 0s;
+}
+.pro_lb1 li .LayImAhrefNode:hover,.product_2 .LayImAhrefNode:hover {
+    text-decoration:none;
+    background-color:#2b2b2b;
+}
+.LayImAhrefNode{
+    display: inline-block!important;
+    border-radius: 3px;
+    background:#f08000;
+    color: #fff!important;
+}
+.product_2 .LayImAhrefNode {
+    display: block;
+    width: 140px;
+/*     margin-left: 12px; */
+    background: #ddd;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    background: #f08000;
+    padding: 0 5px;
+    transition:all .5s linear 0s;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+.right3_text img,.buy a img{
+    margin-top: -2px;
+}

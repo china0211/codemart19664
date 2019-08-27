@@ -1,0 +1,8 @@
+/* fackback */
+#feedbackForm table{width:100%; max-width:600px;_width:600px; margin-top:20px; margin:0 auto; text-align:left;}
+.ftxt{width:24%;}.fput{width:70%;}
+#feedbackForm .text{float:left;width:80%;height:26px;margin:16px 0px 0px 0px;font-size:12px;line-height:26px;padding:0px 5px;border:1px solid #CCC;font-family:Arial, Helvetica, sans-serif;color:#666;}
+#feedbackForm .lable{padding:10px 12px 0px 0px;line-height:30px;height:30px;text-align:right;}
+#feedbackForm .atextarea{float:left;width:80%;padding:5px;margin:16px 0px 0px 0px;border:1px solid #CCC;height:100px;font-size:12px;line-height:20px;font-family:Arial, Helvetica, sans-serif;color:#666;}
+#feedbackForm .submita{display:inline-block; padding:0 20px;height:28px;line-height:28px;text-align:center;font-size:16px;background:#ff9c00;margin:20px 14px; border:none; color:#fff; cursor:pointer}
+#feedbackForm .fsbtn{text-align:center;width:80%;padding:1px;margin:0px;}#feedbackForm span.xh,#msg{color:#f00;}

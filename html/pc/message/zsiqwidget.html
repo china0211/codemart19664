@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<link rel="stylesheet" type="text/css" href="../static/css/flag.css" />
+		<link rel="stylesheet" type="text/css" href="../static/images/m108/green/style.css" />
+		<link rel="stylesheet" type="text/css" href="../static/css/common.css" />
+
+		<script type="text/javascript" src="../static/js/jquery.js"></script>
+
+		<script type="text/javascript" src="../static/js/float15736.js"></script>
+
+		<style type='text/css'>
+			#svos {
+				width: 200px;
+				position: fixed;
+				right: -160px;
+				top: 100px;
+				background: url(../static/images/message/ssbg.png) no-repeat 0 0;
+				min-height: 180px;
+			}
+			
+			#svos .inso {
+				width: 160px;
+				min-height: 246px;
+				float: right;
+				overflow: hidden;
+				text-align: center;
+				font-size: 14px;
+				color: #013984;
+			}
+			
+			.cico {
+				padding: 36px 0 3px 8px;
+				color: #333;
+				font-size: 12px!important;
+			}
+			
+			.cico a {
+				color: #333;
+				text-decoration: none
+			}
+			
+			.cico li {
+				height: 26px;
+				line-height: 26px;
+				text-align: left;
+				display: block;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+			
+			.cico li img {
+				vertical-align: middle
+			}
+			
+			.fico {
+				padding: 0 0 8px 0;
+				text-align: center;
+				border-top: 1px solid #ddd;
+			}
+			
+			.fico img {
+				margin: 0 3px;
+				display: inline
+			}
+			
+			.fico span {
+				display: block;
+				height: 20px;
+				clear: both;
+				padding-top: 4px;
+				text-align: left;
+				text-indent: 12px;
+				color: #666
+			}
+			
+			.fbtop {
+				background: url(../static/images/message/ssbg.png) no-repeat right bottom;
+				height: 66px;
+			}
+			
+			.fbtop .f_top {
+				cursor: pointer;
+				width: 62px;
+				height: 66px;
+				float: left;
+			}
+			
+			.fbtop .f_fb {
+				cursor: pointer;
+				width: 98px;
+				height: 66px;
+				float: right;
+			}
+			
+			.svbox {
+				position: fixed;
+				left: 0;
+				top: 0;
+				height: 100%;
+				width: 100%;
+				background-color: rgba(0, 0, 0, 0.5);
+				opacity: 0;
+				visibility: hidden;
+				-webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+				-moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+				transition: opacity 0.3s 0s, visibility 0s 0.3s;
+				z-index: 9999;
+			}
+			
+			.svbox.boxxg {
+				opacity: 1;
+				visibility: visible;
+				-webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+				-moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+				transition: opacity 0.3s 0s, visibility 0s 0s;
+			}
+			
+			.fbcont {
+				position: relative;
+				width: 640px;
+				margin: 250px auto;
+				height: 360px;
+				border: 1px solid #afcfe0;
+				background: #FFF;
+				border-radius: .4rem .4rem .4rem .4rem;
+				text-align: center;
+				box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+				-webkit-transform: scale(0.8);
+				-moz-transform: scale(0.8);
+				-ms-transform: scale(0.8);
+				-o-transform: scale(0.8);
+				transform: scale(0.8);
+				-webkit-backface-visibility: hidden;
+				-webkit-transition-property: -webkit-transform;
+				-moz-transition-property: -moz-transform;
+				transition-property: transform;
+				-webkit-transition-duration: 0.3s;
+				-moz-transition-duration: 0.3s;
+				-ms-transition-duration: 0.3s;
+				-o-transition-duration: 0.3s;
+				transition-duration: 0.3s;
+			}
+			
+			.fbclose {
+				position: absolute;
+				right: 20px;
+				top: 14px;
+				z-index: 10;
+				cursor: pointer
+			}
+			
+			.boxxg .fbcont {
+				-webkit-transform: scale(1);
+				-moz-transform: scale(1);
+				-ms-transform: scale(1);
+				-o-transform: scale(1);
+				transform: scale(1);
+			}
+			
+			.hovertreeinfo {
+				text-align: center;
+			}
+			
+			.hovertreeinfo a {
+				color: blue
+			}
+			
+			.fbcont .fbinfo {
+				padding: 12px 0;
+				font-size: 14px;
+				background: #f1f1f1;
+				margin: 0 20px;
+				color: #666
+			}
+			
+			.fbcont h3 {
+				font-size: 22px;
+				text-align: left;
+				text-indent: 20px;
+				margin: 16px auto 8px auto;
+				padding: 0;
+			}
+			
+			.fbcont #SubmitEmail_Float {
+				border: 1px solid #e2e2e2;
+				width: 596px;
+				height: 32px;
+				line-height: 32px;
+				text-indent: 12px;
+				padding: 0;
+				margin: 16px auto;
+			}
+			
+			.fbcont #SubmitContent_Float {
+				border: 1px solid #e2e2e2;
+				width: 596px;
+				height: 128px;
+				line-height: 32px;
+				text-indent: 12px;
+				padding: 0;
+				margin: 0;
+			}
+			
+			.fbcont #ImgSend_Float {
+				width: 596px;
+				background: #34b049;
+				height: 32px;
+				line-height: 32px;
+				text-align: center;
+				padding: 0;
+				margin: 12px;
+				border-radius: 8px;
+				color: #fff;
+				cursor: pointer;
+				border: 0;
+				font-size: 16px;
+			}
+			
+			.fbcont #ImgSend_Float:hover {
+				background: #1ca433
+			}
+			
+			.email {
+				word-break: break-all;
+			}
+		</style>
+	</head>
+
+	<body style="background-image: url('');">
+
+		<div id='svos'>
+			<div class='inso'>
+				<ul class='cico'>
+
+					<li><img src='../static/images/message/whatapp7.png' >
+						<a href='https://api.whatsapp.com/send?phone=909-465-1900' target='_blank'>909-465-1900</a>
+					</li>
+					<li class='email'>
+						<a href='mailto:sales@maxsunindustries.com'><img src='../static/images/message/eico7.png' alt='email' /> sales@maxsunindustries.com </a>
+					</li>
+
+				</ul>
+				<div class='fico'> <span>fico us :</span>
+					<a href='#' target='_blank'><img src='../static/images/message/fico7.png'  alt='facebook' /></a>
+					<a href='#' target='_blank'><img src='../static/images/message/tico7.png'  alt='Twitter' /></a>
+					<a href='#' target='_blank'><img src='../static/images/message/lico7.png'  alt='Linkedin' /></a>
+					<a href='#' target='_blank'><img src='../static/images/message/pico7.png'  alt='Pinterest' /></a>
+					<a href='#' target='_blank'><img src='../static/images/message/gico7.png'  alt='GooglePlus' /></a>
+				</div>
+				<div class='fbtop'>
+					<a class='f_top' href='javascript:void(0);'></a>
+					<a class='f_fb'></a>
+				</div>
+			</div>
+		</div>
+		<div class='svbox'>
+			<div class='fbcont'>
+				<h3>Feedback</h3>
+				<p class='fbinfo'>Please include your contact information if you'd like to receive a reply.</p>
+				<p>
+					<input type='text' name='SubmitEmail_Float' id='SubmitEmail_Float' placeholder='E-mail'>
+				</p>
+				<textarea name='SubmitContent_Float' id='SubmitContent_Float'></textarea>
+				<input type='button' value='Send Inquiry' onclick='submitFloatInquiry()' id='ImgSend_Float'> <img src='../static/images/Common/close.gif' alt='close' class='fbclose' /></div>
+		</div>
+		<div id="zsiqwidget"></div>
+
+		<script>
+			var winHeight = $(window).height() - 464 + 'px';
+			$('.list_right_').css('min-height', winHeight);
+		</script>
+
+		<!----------------------------------------------->
+
+	</body>
+
+</html>

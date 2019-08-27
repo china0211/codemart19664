@@ -1,0 +1,400 @@
+<!doctype html>
+<html>
+
+	<head>
+
+		<head>
+			<meta charset=utf-8 "utf-8">
+			<title>产品列表</title>
+			<meta name="description" content="描述" />
+			<meta name="keywords" content="关键字" />
+			<meta name="google-site-verification" content="zZQfvSy0bH1tRdc2bGEQayRV5-xW0S_6xkBkPenu4Gs" />
+
+			<link href="手机站对应页面路径" rel="alternate" media="only screen and (max-width: 640px)" />
+			<link href="主站网址" rel="canonical" />
+
+			<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+			<meta name="format-detection" content="telephone=no">
+			<meta name="apple-mobile-web-app-capable" content="yes">
+			<meta name="apple-mobile-web-app-status-bar-style" content="black">
+			<meta name="x5-orientation" content="portrait">
+			<meta name="screen-orientation" content="portrait">
+			<link href="../favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+			<link type="text/css" rel="stylesheet" href="../static/css/wap.m13/style.css">
+			<link type="text/css" rel="stylesheet" href="../static/css/wap.m13/common.css">
+			<link type="text/css" rel="stylesheet" href="../static/css/wap.m13/second9.css">
+
+			<script type="text/javascript" src="../static/js/jquery.js" defer></script>
+			<script type="text/javascript" src="../static/js/wap.m13/owl.carousel.js" defer></script>
+			<script>
+				(function() {
+					var dd = document.documentElement,
+						cw = dd.clientWidth;
+					dd.style.fontSize = cw / 320 * 20 + 'px';
+				})();
+			</script>
+		</head>
+
+		<body>
+		<!--
+        	作者：gheb_96@163.com
+        	时间：2019-08-27
+        	描述：页面头部
+        -->
+		<header>
+			<!--
+            	作者：gheb_96@163.com
+            	时间：2019-08-27
+            	描述：头部查询
+            -->
+			<div class="search">
+				<a href="#">
+					<img src="http://m.maxsunindustry.com/uploads/201715736/logo297958.png" border="0" alt="Logo" class="logo" />
+				</a>
+				<input type="text" name="lname" id="txtSearch" placeholder="输入你的关键词" class="search-text" />
+				<button class="search-button" onClick="PSearch()" id="btnSearch"></button>
+				<img src="../static/css/wap.m11/menu.png" alt="menu" class="menu" />
+			</div>
+			<!--
+            	作者：gheb_96@163.com
+            	时间：2019-08-27
+            	描述：伸缩导航列表
+            -->
+			<div class="list">
+				<ul class="list-container">
+					<li class="list-item clearfix">
+						<a href="../index.html" class="list-item-url">首页</a>
+					</li>
+					<li class="list-item clearfix">
+						<a href="../single/about-us.htm" class="list-item-url">关于我们</a>
+					</li>
+					<li id="liproducts" class="list-item clearfix">
+						<a href="../product/category.htm" class="list-item-url">产品
+							<img src="../static/images/160/index-arrow.png" class="list-arrow" data-img="static/images/list-item-active.png" />
+						</a>
+						<ul class="submenu">
+							<li class="side-nav clearfix">
+								<a href="../product/list.htm">Max系列
+									<img src="../static/images/160/index-arrow.png" alt="" class="side-nav-arrow" />
+								</a>
+								<ul class="submenu-three">
+									<li class="side-nav2 clearfix">
+										<a href="../product/list.htm">Vitamin<img src="../static/images/160/index-arrow.png" alt="" class="side-nav-arrow" /></a>
+									</li>
+
+									<li class="side-nav2 clearfix">
+										<a href="../product/list.htm">Muscle<img src="../static/images/160/index-arrow.png" alt="" class="side-nav-arrow" /></a>
+									</li>
+
+									<li class="side-nav2 clearfix">
+										<a href="../product/list.htm">Nootropic<img src="../static/images/160/index-arrow.png" alt="" class="side-nav-arrow" /></a>
+									</li>
+
+									<li class="side-nav2 clearfix">
+										<a href="../product/list.htm">Cosmetic Ingredients<img src="../static/images/160/index-arrow.png" alt="" class="side-nav-arrow" /></a>
+									</li>
+
+									<li class="side-nav2 clearfix">
+										<a href="../product/list.htm">Medical Intermediate<img src="../static/images/160/index-arrow.png" alt="" class="side-nav-arrow" /></a>
+									</li>
+
+									<li class="side-nav2 clearfix">
+										<a href="../product/list.htm">Natural Sweetener<img src="../static/images/160/index-arrow.png" alt="" class="side-nav-arrow" /></a>
+									</li>
+
+									<li class="side-nav2 clearfix">
+										<a href="../product/list.htm">Amino Acid<img src="../static/images/160/index-arrow.png" alt="" class="side-nav-arrow" /></a>
+									</li>
+								</ul>
+							</li>
+
+							<li class="side-nav clearfix">
+								<a href="../product/category.htm">太阳系列<img src="../static/images/160/index-arrow.png" alt="" class="side-nav-arrow" /></a>
+								<ul class="submenu-three">
+									<li class="side-nav2 clearfix">
+										<a href="../product/list.htm">Organic Powder<img src="../static/images/160/index-arrow.png" alt="" class="side-nav-arrow" /></a>
+									</li>
+
+									<li class="side-nav2 clearfix">
+										<a href="product/list.htm">Fruit Juice Powder<img src="../static/images/160/index-arrow.png" alt="" class="side-nav-arrow" /></a>
+									</li>
+
+									<li class="side-nav2 clearfix">
+										<a href="../product/list.htm">Fruit Extract<img src="../static/images/160/index-arrow.png" alt="" class="side-nav-arrow" /></a>
+									</li>
+
+									<li class="side-nav2 clearfix">
+										<a href="../product/list.htm">Herb Ingredients<img src="../static/images/160/index-arrow.png" alt="" class="side-nav-arrow" /></a>
+									</li>
+								</ul>
+							</li>
+
+							<li class="side-nav clearfix">
+								<a href="../product/category.htm">特色产品<img src="../static/images/160/index-arrow.png" alt="" class="side-nav-arrow" /></a>
+							</li>
+						</ul>
+					</li>
+					<li class="list-item clearfix">
+						<a href="../inventory/list.htm" class="list-item-url">PDF文件</a>
+					</li>
+					<li class="list-item clearfix">
+						<a href="../news/list.htm" class="list-item-url">新闻</a>
+					</li>
+					<li class="list-item clearfix">
+						<a href="info/index.htm" class="list-item-url">知识<img src="../static/images/160/index-arrow.png" class="list-arrow" /></a>
+						<ul class="submenu">
+							<li class="side-nav clearfix">
+								<a href="../info/list.htm">植物提取物<img src="../static/images/160/index-arrow.png" class="side-nav-arrow" /></a>
+							</li>
+							<li class="side-nav clearfix">
+								<a href="../info/list.htm">水果提取物<img src="../static/images/160/index-arrow.png" class="side-nav-arrow" /></a>
+							</li>
+							<li class="side-nav clearfix">
+								<a href="../info/list.htm">草本成分<img src="../static/images/160/index-arrow.png" class="side-nav-arrow" /></a>
+							</li>
+							<li class="side-nav clearfix">
+								<a href="../info/list.htm">氨基酸<img src="../static/images/160/index-arrow.png" class="side-nav-arrow" /></a>
+							</li>
+						</ul>
+					</li>
+					<li class="list-item clearfix">
+						<a href="../single/contact-us.htm" class="list-item-url">联系我们</a>
+					</li>
+
+				</ul>
+				<div class="select-flag">
+					<div class="flage-show"> <span class="lower"></span>
+						<ul class="flage-list">
+							<li>
+								<a href="#">
+									<!--<img src="../static/css/wap.m11/flage.jpg"  alt="" />--><i>English</i> </a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--
+        	作者：gheb_96@163.com
+        	时间：2019-08-27
+        	描述：大图
+        -->
+		<div class="banner">
+			<img src="http://m.maxsunindustry.com/uploads/201815736/ImgScroll/ba201810100933562636677.jpg" class="banner">
+		</div>
+			
+			<section>
+				<div class="g-second9">
+					<ul class="xzfl">
+						<h2>产品分类</h2>
+						<li>
+							<a href="../product/list.htm">Max Series</a>
+						</li>
+						<li>
+							<a href="../product/list.htm">Sun Series</a>
+						</li>
+						<li>
+							<a href="../product/list.htm">Featured Product</a>
+						</li>
+					</ul>
+					<div class="second9-main">
+						<div class="second9-container">
+							<h3>产品</h3>
+							<p class="line"></p>
+							<ul class="ninelist ninelist-one">
+								<li class="ninelist-li">
+									<a href="../product/detail.htm">
+										<img class="pic" src="http://m.maxsunindustry.com/uploads/201815736/small/black-cohosh-extract-powder16566568899.jpg" width="100%" alt="" />
+										<img class="ourstore" src="../static/images/wap.m13/hl-ourstore.png" width="100%" />
+										<p class="li-line"></p>
+										<p class="mark">产品标题45个字符...</p>
+									</a>
+								</li>
+								<li class="ninelist-li">
+									<a href="../product/detail.htm">
+										<img class="pic" src="http://m.maxsunindustry.com/uploads/201815736/small/buckthorn-bark-extract28046366309.jpg" width="100%" alt="" />
+										<img class="ourstore" src="../static/images/wap.m13/hl-ourstore.png" width="100%" />
+										<p class="li-line"></p>
+										<p class="mark">产品标题45个字符...</p>
+									</a>
+								</li>
+								<li class="ninelist-li">
+									<a href="../product/detail.htm">
+										<img class="pic" src="http://m.maxsunindustry.com/uploads/201815736/small/bearberry-leaf-extract27324510646.jpg" width="100%" alt="" />
+										<img class="ourstore" src="../static/images/wap.m13/hl-ourstore.png" width="100%" />
+										<p class="li-line"></p>
+										<p class="mark">产品标题45个字符...</p>
+									</a>
+								</li>
+								<li class="ninelist-li">
+									<a href="../product/detail.htm">
+										<img class="pic" src="http://m.maxsunindustry.com/uploads/201815736/small/bacopa-extract38433532458.jpg" width="100%" alt="" />
+										<img class="ourstore" src="../static/images/wap.m13/hl-ourstore.png" width="100%" />
+										<p class="li-line"></p>
+										<p class="mark">产品标题45个字符...</p>
+									</a>
+								</li>
+								<li class="ninelist-li">
+									<a href="../product/detail.htm">
+										<img class="pic" src="http://m.maxsunindustry.com/uploads/201815736/small/annona-squamosa-extract57546724374.jpg" width="100%" alt="" />
+										<img class="ourstore" src="../static/images/wap.m13/hl-ourstore.png" width="100%" />
+										<p class="li-line"></p>
+										<p class="mark">产品标题45个字符...</p>
+									</a>
+								</li>
+								<li class="ninelist-li">
+									<a href="../product/detail.htm">
+										<img class="pic" src="http://m.maxsunindustry.com/uploads/201815736/small/artichoke-extract-powder53563908215.jpg" width="100%" alt="" />
+										<img class="ourstore" src="../static/images/wap.m13/hl-ourstore.png" width="100%" />
+										<p class="li-line"></p>
+										<p class="mark">产品标题45个字符...</p>
+									</a>
+								</li>
+								<li class="ninelist-li">
+									<a href="../product/detail.htm">
+										<img class="pic" src="http://m.maxsunindustry.com/uploads/201815736/small/agrimony-extract47419300246.jpg" width="100%" alt="" />
+										<img class="ourstore" src="../static/images/wap.m13/hl-ourstore.png" width="100%" />
+										<p class="li-line"></p>
+										<p class="mark">产品标题45个字符...</p>
+									</a>
+								</li>
+								<li class="ninelist-li">
+									<a href="../product/detail.htm">
+										<img class="pic" src="http://m.maxsunindustry.com/uploads/201815736/small/chamomile-flower-extract20079822905.jpg" width="100%" alt="" />
+										<img class="ourstore" src="../static/images/wap.m13/hl-ourstore.png" width="100%" />
+										<p class="li-line"></p>
+										<p class="mark">产品标题45个字符...</p>
+									</a>
+								</li>
+								<li class="ninelist-li">
+									<a href="../product/detail.htm">
+										<img class="pic" src="http://m.maxsunindustry.com/uploads/201815736/small/vitamin-e-5041520549970.jpg" width="100%" alt="" />
+										<img class="ourstore" src="../static/images/wap.m13/hl-ourstore.png" width="100%" />
+										<p class="li-line"></p>
+										<p class="mark">产品标题45个字符...</p>
+									</a>
+								</li>
+								<li class="ninelist-li">
+									<a href="../product/detail.htm">
+										<img class="pic" src="http://m.maxsunindustry.com/uploads/201815736/small/vitamin-d305183372154.jpg" width="100%" alt="" />
+										<img class="ourstore" src="../static/images/wap.m13/hl-ourstore.png" width="100%" />
+										<p class="li-line"></p>
+										<p class="mark">产品标题45个字符...</p>
+									</a>
+								</li>
+								<li class="ninelist-li">
+									<a href="../product/detail.htm">
+										<img class="pic" src="http://m.maxsunindustry.com/uploads/201815736/small/xylitol58581742574.jpg" width="100%" alt="Xylitol" />
+										<img class="ourstore" src="../static/images/wap.m13/hl-ourstore.png" width="100%" />
+										<p class="li-line"></p>
+										<p class="mark">产品标题45个字符...</p>
+									</a>
+								</li>
+								<li class="ninelist-li">
+									<a href="../product/detail.htm">
+										<img class="pic" src="http://m.maxsunindustry.com/uploads/201815736/small/sucralose41460248725.jpg" width="100%" alt="Sucralose" />
+										<img class="ourstore" src="../static/images/wap.m13/hl-ourstore.png" width="100%" />
+										<p class="li-line"></p>
+										<p class="mark">产品标题45个字符...</p>
+									</a>
+								</li>
+							</ul>
+							<div class="sjfy">
+								<span class="sjfy-l"><a href="../product/list.htm" ></a></span>
+								<span class="sjfy-r"><a href="../product/list.htm" ></a></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		
+		<!--
+        	作者：gheb_96@163.com
+        	时间：2019-08-27
+        	描述：底部公共部分
+        -->
+		<footer>
+			<div class="footer">
+				<div class="container">
+					<h3 class="container-title">联系我们</h3>
+					<ul class="contact-list">
+						<li class="clearfix"><i class="icon1"></i>
+							<span class="contact-text">公司地址</span>
+						</li>
+						<li class="clearfix"><i class="icon2"></i><span class="contact-text"></span></li>
+						<li class="clearfix"><i class="icon2-2"></i>
+							<span class="contact-text">+8618502967072</span>
+						</li>
+						<li class="clearfix"><i class="icon3"></i><span class="contact-text">
+							<a href="#" id="A_4">sales@maxsunindustries.com</a>
+							<br/>
+							<a href="#" >http://m.maxsunindustry.com/</a></span>
+						</li>
+						<li class="clearfix"></li>
+					</ul>
+				</div>
+				
+				<div class="container">
+					<h3 class="container-title">新闻和事件</h3>
+					<ul class="recent-list">
+						<li>
+							<a href="../news/list.htm" >新闻标题84个字符</a>
+						</li>
+						<li>
+							<a href="../news/list.htm" >新闻标题84个字符</a>
+						</li>
+						<li>
+							<a href="../news/list.htm" >新闻标题84个字符</a>
+						</li>
+						<li>
+							<a href="../news/list.htm" >新闻标题84个字符</a>
+						</li>
+						<li>
+							<a href="../news/list.htm" >新闻标题84个字符</a>
+						</li>
+						<li>
+							<a href="../news/list.htm" >新闻标题84个字符</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="footertext">
+				<p class="copyright">Copyright © Maxsun Industries, Inc All Rights Reserved.</p>
+				<ul class="footer-nav">
+					<li id="li_Menu101_about-us">
+						<a href="../single/about-us.htm"  class="inmenu">关于我们</a>
+					</li>
+					<li id="li_Menu101_products">
+						<a href="../product/list.htm"  class="inmenu">Product</a>
+					</li>
+					<li id="li_Menu101_inventory">
+						<a href="../inventory/list.htm"  class="inmenu">PDF文件</a>
+					</li>
+					<li id="li_Menu101_newslist-1">
+						<a href="../news/list.htm"  class="inmenu">News</a>
+					</li>
+					<li id="li_Menu101_Info">
+						<a href="../info/index.htm"  class="inmenu">知识</a>
+					</li>
+					<li id="li_Menu101_contact-us">
+						<a href="../single/contact-us.htm"  class="inmenu">联系我们</a>
+					</li>
+
+				</ul>
+			</div>
+		</footer>
+
+		<script src="../static/js/scrolltop.js"  type="text/javascript" defer="defer"></script>
+		<script src="../static/js/wap.m13/common.js"  defer></script>
+		<script src="../static/js/wap.m13/index.js"  defer></script>
+		<!--<script src="static/js/count.js"  defer></script>-->
+		<!--
+		<div id="topcontrol" title="Back to Top" style="position: fixed; bottom: 60px; right: 0px; opacity: 1; cursor: pointer;">
+			<img src="../static/images/top.png" style="width:40px;height:40px;border:0;">
+		</div>		
+		-->
+	</body>
+
+</html>

@@ -1,0 +1,547 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset=utf-8 "utf-8" />
+		<title>产品</title>
+		<meta name="description" content="描述" />
+		<meta name="keywords" content="关键字" />
+
+		<link href="手机站对应页面路径" rel="alternate" media="only screen and (max-width: 640px)" />
+		<link href="主站网址" rel="canonical" />
+		<link href="../favicon.ico" rel="shortcut icon" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="../static/css/m108/green/style.css" />
+		<link rel="stylesheet" type="text/css" href="../static/css/common.css" />
+
+		<script type="text/javascript" src="../static/js/jquery.js"></script>
+		<script type="text/javascript" src="../static/js/Site_Common.js"></script>
+	</head>
+
+	<body>
+		<!--
+        	作者：gheb_96@163.com
+        	时间：2019-08-22
+        	描述：顶部容器
+        -->
+		<div class="box">
+			<!--
+        	作者：gheb_96@163.com
+        	时间：2019-08-22
+        	描述：顶部横行
+        -->
+			<div class="tcon">
+				<a href="mailto:sales@maxsunindustries.com">sales@maxsunindustries.com</a>
+				<span class="ttel">909-465-1900</span>
+			</div>
+			<!--
+            	作者：gheb_96@163.com
+            	时间：2019-08-22
+            	描述：导航菜单
+            -->
+			<div class="nav_top">
+				<ul class="nav_en site_297958">
+					<li id="liHome">
+						<a href="../index.htm" class="inmenu_1">首页</a>
+					</li>
+					<li id="liabout-us">
+						<a href="../single/single.htm" class="inmenu">关于我们</a>
+					</li>
+					<li id="liproducts" onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)">
+						<a href="../product/category.htm" class="inmenu">产品</a>
+						<ul class="submenu">
+							<li class="side_nav1" id="HeadProCat1">
+								<a href="../product/list.htm">Max系列</a>
+							</li>
+							<li class="side_nav1" id="HeadProCat2">
+								<a href="../product/list.htm">太阳系列</a>
+							</li>
+							<li class="side_nav1" id="HeadProCat3">
+								<a href="../product/list.htm">特色产品</a>
+							</li>
+						</ul>
+					</li>
+					<li id="liinventory">
+						<a href="../inventory/list.htm" class="inmenu">库存</a>
+					</li>
+					<li id="linewslist-1">
+						<a href="../news/list.htm" class="inmenu">新闻</a>
+					</li>
+					<li id="liInfo" onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)">
+						<a href="../info/index.htm" class="inmenu">知识</a>
+						<ul class="submenu">
+							<li id="HeadIndustryCat1">
+								<a href="../info/list.htm" title="Plant Extract">植物提取物</a>
+							</li>
+							<li id="HeadIndustryCat2">
+								<a href="../info/list.htm" title="Fruit Extract">水果提取物</a>
+							</li>
+							<li id="HeadIndustryCat3">
+								<a href="../info/list.htm" title="Herb Ingredients">草本成分</a>
+							</li>
+							<li id="HeadIndustryCat4">
+								<a href="../info/list.htm" title="Amino Acid">氨基酸</a>
+							</li>
+						</ul>
+					</li>
+					<li id="licontact-us">
+						<a href="../single/single.htm" class="inmenu">联系我们</a>
+					</li>
+				</ul>
+			</div>
+			<!--
+            	作者：gheb_96@163.com
+            	时间：2019-08-22
+            	描述：搜索条件
+            -->
+			<div class="ssk">
+				<div class="ssk_img">
+					<label>
+				        <input type="text" name="lname" id="txtSearch" class="ssss" value="Search" onFocus="if (value =='Search'){value =''}" onBlur="if (value ==''){value='Search'}" />
+				    	<input type="button" value="GO" class="ssk_imga" onClick="PSearch()" id="btnSearch" />
+				    </label>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<!--
+            	作者：gheb_96@163.com
+            	时间：2019-08-22
+            	描述：Logo链接
+            -->
+			<div class="logo fl">
+				<a href="index.htm">
+					<img src="http://www.maxsunindustry.com/uploads/201715736/logo297958.png" alt="Maxsun Industries, Inc" />
+				</a>
+			</div>
+
+			<div class="ttop">
+				<div class="nav fr">
+					<ul>
+
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="list_box">
+			<!--
+            	作者：gheb_96@163.com
+            	时间：2019-08-22
+        		描述：左侧容器
+
+            -->
+			<div class="content_box">
+				<!--
+                	作者：gheb_96@163.com
+                	时间：2019-08-22
+                	描述：文章分类列表
+                -->
+				<ul class="sf-menu">
+					<li class="menu-item LiLevel1" id="LeftNavCat1">
+						<a href="../product/detail.htm" id="6569172">Max Series</a>
+						<ul class="sub-menu">
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6626651">Vitamin</a>
+							</li>
+
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6569440">Muscle</a>
+							</li>
+
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6569443">Nootropic</a>
+							</li>
+
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6569448">Cosmetic Ingredients</a>
+							</li>
+
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6569457">Medical Intermediate</a>
+							</li>
+
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6569460">Natural Sweetener</a>
+							</li>
+
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6569466">Amino Acid</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="menu-item LiLevel1" id="LeftNavCat2">
+						<a href="../product/detail.htm" id="6569173">Sun Series</a>
+						<ul class="sub-menu">
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6569294">Organic Powder</a>
+							</li>
+
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6569360">Fruit Juice Powder</a>
+							</li>
+
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6569419">Fruit Extract</a>
+							</li>
+
+							<li class="LiLevel2">
+								<a href="../product/detail.htm" id="6569421">Herb Ingredients</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="menu-item LiLevel1" id="LeftNavCat3">
+						<a href="../product/detail.htm" id="6576483">Featured Product</a>
+					</li>
+
+				</ul>
+				<div class="side-contact">
+					<p>
+						<a href="mailto:sales@maxsunindustries.com">E-mail:sales@maxsunindustries.com</a>
+					</p>
+					<p>Tel: 909-465-1900 </p>
+					<p>Fax: 909-465-1911</p>
+				</div>
+			</div>
+
+			<div class="list_right_">
+				<div class="list_right">
+					<!--
+                    	作者：gheb_96@163.com
+                    	时间：2019-08-25
+                    	描述：面包屑
+                    -->
+					<div class="location">
+						<a href="../index.htm">首页</a> >
+						<a href="../product/category.htm">产品分类</a> >
+						<a href="../product/list.htm">产品大类</a> >
+						<a href="../product/list.htm">产品子类</a>
+					</div>
+					<!--
+                    	作者：gheb_96@163.com
+                    	时间：2019-08-25
+                    	描述：文章详情容器
+                    -->
+					<h1 class="list_title">产品子类</h1>
+					<div class="pro-body">产品子类的文字描述介绍</div>
+					<div class="product_list_box">
+						<input type="hidden" id="ProductTypeId" value="6626651" />
+						<ul class="pro_lb0">
+							<li class="clearfix">
+								<span class="fl">
+									<a href="../product/detail.htm"  class="pimg" target="_blank">
+										<img src="http://www.maxsunindustry.com/uploads/201815736/small/vitamin-e-5041520549970.jpg"  alt="产品标题" border="0" />
+									</a>
+								</span>
+								<p>
+									<span class="inquire">
+										<a href="../product/detail.htm#F1"  rel="nofollow" target="_blank">联系咨询</a>
+									</span>
+									<h3>
+										<a href="../product/detail.htm"  target="_blank">产品标题</a>
+									</h3>
+									<span class="pinfo">
+										产品描述276个字符...
+									</span>
+									<span class="more">
+										<a href="../product/detail.htm"  target="_blank">查看详情</a>
+										<b></b>
+									</span>
+								</p>
+							</li>
+							<li class="clearfix">
+								<span class="fl">
+									<a href="../product/detail.htm"  class="pimg" target="_blank">
+										<img src="http://www.maxsunindustry.com/uploads/201815736/small/vitamin-e-5041520549970.jpg"  alt="产品标题" border="0" />
+									</a>
+								</span>
+								<p>
+									<span class="inquire">
+										<a href="../product/detail.htm#F1"  rel="nofollow" target="_blank">联系咨询</a>
+									</span>
+									<h3>
+										<a href="../product/detail.htm"  target="_blank">产品标题</a>
+									</h3>
+									<span class="pinfo">
+										产品描述276个字符...
+									</span>
+									<span class="more">
+										<a href="../product/detail.htm"  target="_blank">查看详情</a>
+										<b></b>
+									</span>
+								</p>
+							</li>
+							<li class="clearfix">
+								<span class="fl">
+									<a href="../product/detail.htm"  class="pimg" target="_blank">
+										<img src="http://www.maxsunindustry.com/uploads/201815736/small/vitamin-e-5041520549970.jpg"  alt="产品标题" border="0" />
+									</a>
+								</span>
+								<p>
+									<span class="inquire">
+										<a href="../product/detail.htm#F1"  rel="nofollow" target="_blank">联系咨询</a>
+									</span>
+									<h3>
+										<a href="../product/detail.htm"  target="_blank">产品标题</a>
+									</h3>
+									<span class="pinfo">
+										产品描述276个字符...
+									</span>
+									<span class="more">
+										<a href="../product/detail.htm"  target="_blank">查看详情</a>
+										<b></b>
+									</span>
+								</p>
+							</li>
+							<li class="clearfix">
+								<span class="fl">
+									<a href="../product/detail.htm"  class="pimg" target="_blank">
+										<img src="http://www.maxsunindustry.com/uploads/201815736/small/vitamin-e-5041520549970.jpg"  alt="产品标题" border="0" />
+									</a>
+								</span>
+								<p>
+									<span class="inquire">
+										<a href="../product/detail.htm#F1"  rel="nofollow" target="_blank">联系咨询</a>
+									</span>
+									<h3>
+										<a href="../product/detail.htm"  target="_blank">产品标题</a>
+									</h3>
+									<span class="pinfo">
+										产品描述276个字符...
+									</span>
+									<span class="more">
+										<a href="../product/detail.htm"  target="_blank">查看详情</a>
+										<b></b>
+									</span>
+								</p>
+							</li>
+							<li class="clearfix">
+								<span class="fl">
+									<a href="../product/detail.htm"  class="pimg" target="_blank">
+										<img src="http://www.maxsunindustry.com/uploads/201815736/small/vitamin-e-5041520549970.jpg"  alt="产品标题" border="0" />
+									</a>
+								</span>
+								<p>
+									<span class="inquire">
+										<a href="../product/detail.htm#F1"  rel="nofollow" target="_blank">联系咨询</a>
+									</span>
+									<h3>
+										<a href="../product/detail.htm"  target="_blank">产品标题</a>
+									</h3>
+									<span class="pinfo">
+										产品描述276个字符...
+									</span>
+									<span class="more">
+										<a href="../product/detail.htm"  target="_blank">查看详情</a>
+										<b></b>
+									</span>
+								</p>
+							</li>
+							<li class="clearfix">
+								<span class="fl">
+									<a href="../product/detail.htm"  class="pimg" target="_blank">
+										<img src="http://www.maxsunindustry.com/uploads/201815736/small/vitamin-e-5041520549970.jpg"  alt="产品标题" border="0" />
+									</a>
+								</span>
+								<p>
+									<span class="inquire">
+										<a href="../product/detail.htm#F1"  rel="nofollow" target="_blank">联系咨询</a>
+									</span>
+									<h3>
+										<a href="../product/detail.htm"  target="_blank">产品标题</a>
+									</h3>
+									<span class="pinfo">
+										产品描述276个字符...
+									</span>
+									<span class="more">
+										<a href="../product/detail.htm"  target="_blank">查看详情</a>
+										<b></b>
+									</span>
+								</p>
+							</li>
+							<li class="clearfix">
+								<span class="fl">
+									<a href="../product/detail.htm"  class="pimg" target="_blank">
+										<img src="http://www.maxsunindustry.com/uploads/201815736/small/vitamin-e-5041520549970.jpg"  alt="产品标题" border="0" />
+									</a>
+								</span>
+								<p>
+									<span class="inquire">
+										<a href="../product/detail.htm#F1"  rel="nofollow" target="_blank">联系咨询</a>
+									</span>
+									<h3>
+										<a href="../product/detail.htm"  target="_blank">产品标题</a>
+									</h3>
+									<span class="pinfo">
+										产品描述276个字符...
+									</span>
+									<span class="more">
+										<a href="../product/detail.htm"  target="_blank">查看详情</a>
+										<b></b>
+									</span>
+								</p>
+							</li>
+							<li class="clearfix">
+								<span class="fl">
+									<a href="../product/detail.htm"  class="pimg" target="_blank">
+										<img src="http://www.maxsunindustry.com/uploads/201815736/small/vitamin-e-5041520549970.jpg"  alt="产品标题" border="0" />
+									</a>
+								</span>
+								<p>
+									<span class="inquire">
+										<a href="../product/detail.htm#F1"  rel="nofollow" target="_blank">联系咨询</a>
+									</span>
+									<h3>
+										<a href="../product/detail.htm"  target="_blank">产品标题</a>
+									</h3>
+									<span class="pinfo">
+										产品描述276个字符...
+									</span>
+									<span class="more">
+										<a href="../product/detail.htm"  target="_blank">查看详情</a>
+										<b></b>
+									</span>
+								</p>
+							</li>
+							<li class="clearfix">
+								<span class="fl">
+									<a href="../product/detail.htm"  class="pimg" target="_blank">
+										<img src="http://www.maxsunindustry.com/uploads/201815736/small/vitamin-e-5041520549970.jpg"  alt="产品标题" border="0" />
+									</a>
+								</span>
+								<p>
+									<span class="inquire">
+										<a href="../product/detail.htm#F1"  rel="nofollow" target="_blank">联系咨询</a>
+									</span>
+									<h3>
+										<a href="../product/detail.htm"  target="_blank">产品标题</a>
+									</h3>
+									<span class="pinfo">
+										产品描述276个字符...
+									</span>
+									<span class="more">
+										<a href="../product/detail.htm"  target="_blank">查看详情</a>
+										<b></b>
+									</span>
+								</p>
+							</li>
+							<li class="clearfix">
+								<span class="fl">
+									<a href="../product/detail.htm"  class="pimg" target="_blank">
+										<img src="http://www.maxsunindustry.com/uploads/201815736/small/vitamin-e-5041520549970.jpg"  alt="产品标题" border="0" />
+									</a>
+								</span>
+								<p>
+									<span class="inquire">
+										<a href="../product/detail.htm#F1"  rel="nofollow" target="_blank">联系咨询</a>
+									</span>
+									<h3>
+										<a href="../product/detail.htm"  target="_blank">产品标题</a>
+									</h3>
+									<span class="pinfo">
+										产品描述276个字符...
+									</span>
+									<span class="more">
+										<a href="../product/detail.htm"  target="_blank">查看详情</a>
+										<b></b>
+									</span>
+								</p>
+							</li>
+							
+						</ul>
+					</div>
+
+					<div class="list_text">
+						<div class="proIntro">
+							知名维生素主要供应商之一,我们提供最好的批发服务。请购买出售大部分维生素营养原料的专业制造商和分销商。详情,欢迎与我厂联系。
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+
+		<!--
+			作者：gheb_96@163.com
+			时间：2019-08-22
+			描述：下面的部分提取为公共部分
+		-->
+
+		<!--
+        	作者：gheb_96@163.com
+        	时间：2019-08-22
+        	描述：底部容器
+        -->
+		<div class="foot">
+			<div class="foot_text">
+				<div class="foot_text_1">
+					<div class="foot_text_1_1">订阅我们的电子邮件列表</div>
+					<div class="foot_text_1_2">注册您的姓名和电子邮件，以获取最新的proway更新，独家访问促销，销售活动，预购销售等等！</div>
+					<div class="foot_text_1_3">
+						<div class="foot_text_1_3_1">
+							<input name="SubmitName_I" id="SubmitName_I" type="text" value="Your Name" onFocus="if (value =='Your Name'){value =''}" onBlur="if (value ==''){value='Your Name'}" />
+						</div>
+						<div class="foot_text_1_3_2">
+							<label>
+					          	<input type="text" name="SubmitEmail_I" id="SubmitEmail_I"  value="Your Email" onFocus="if (value =='Your Email'){value =''}" onBlur="if (value ==''){value='Your Email'}"  />
+					        </label>
+						</div>
+						<input type="image" class="foot_text_1_3_3" src="../static/images/C_IMG/m108/foot_bg.png" onclick="submitInquiry()" id="ImgSend_I" />
+					</div>
+				</div>
+				<div class="foot_text_2">
+					<div class="foot_text_2_1">与maxsun连接</div>
+					<div class="foot_text_2_2">成为我们的粉丝，关注我们并订阅最新的更新和优惠</div>
+					<div class="foot_text_2_3"> </div>
+				</div>
+				<div class="qrcode"><img src="http://www.maxsunindustry.com/uploads/201915736/erwei297958.jpg" border="0" class="ErWeiImg" /><span>QR Code</span></div>
+			</div>
+			<div class="huise_line"></div>
+			<div class="fu_nav">
+				<li id="li_Menu101_about-us">
+					<a href="../single/about-us.htm" class="inmenu">关于我们</a>
+				</li>
+				<li id="li_Menu101_products">
+					<a href="../product/category.htm" class="inmenu">产品</a>
+				</li>
+				<li id="li_Menu101_inventory">
+					<a href="../inventory/list.htm" class="inmenu">库存</a>
+				</li>
+				<li id="li_Menu101_newslist-1">
+					<a href="../news/list.htm" class="inmenu">新闻</a>
+				</li>
+				<li id="li_Menu101_Info">
+					<a href="../info/index.htm" class="inmenu">知识</a>
+				</li>
+				<li id="li_Menu101_contact-us">
+					<a href="../single/contact-us.htm" class="inmenu">联系我们</a>
+				</li>
+			</div>
+		</div>
+		<div class="foot_2">
+			<div class="foot_2_">
+				<div class="font_2_1">版权所有©Maxsun Industries，Inc保留所有权利。</div>
+				<div class="font_2_1_1" style="float:right;">
+					<a href="sitemap.xml.htm">网站地图</a>
+				</div>
+			</div>
+		</div>
+
+		<!--
+        	作者：gheb_96@163.com
+        	时间：2019-08-22
+        	描述：底部JS
+        -->
+		<script type="text/javascript" src="../static/js/focus.js"></script>
+		<script type="text/javascript" src="../static/js/js108.js"></script>
+
+		<!--
+			作者：gheb_96@163.com
+			时间：2019-08-23
+			描述：这里还有弹窗留言组件
+		-->
+
+	</body>
+
+</html>
